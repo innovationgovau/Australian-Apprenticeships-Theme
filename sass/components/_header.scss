@@ -1,0 +1,130 @@
+/* 
+Header
+
+This section provides styles for the header component at the top of the page. Note that individual components can appear in other partials.
+
+Styleguide 1
+*/
+
+/*
+Header Wrapper
+
+Wraps the entire header to enable Susy bleed.
+
+Markup:
+<div class="l-header-wrapper">
+    <p>Text to demonstrate .l-header-wrapper.</p>
+</div>
+
+Styleguide 1.1
+*/
+
+.l-branding-wrapper {
+	@include background-image(linear-gradient(to bottom right, $blue, $dark-blue));
+	color: $white;
+}
+
+/*
+Branding
+
+The Branding block includes the site logo and title. Note that the site title is hidden.
+
+Markup:
+<div class="l-header-wrapper">
+	<header class="l-header" role="banner">
+		<div class="l-branding">
+	    <div class="l-logo">
+        <a href="/" title="Home" rel="home" class="logo">
+          <img src="../images/logo.png" alt="Home">
+				</a>
+	    </div>
+	    <div class="l-title">
+				<h1 class="hidden">Australian Apprenticeships</h1>
+	    </div>
+		</div>
+	</header>
+</div>
+
+Styleguide 1.2
+*/
+
+.l-branding {
+	padding: $all-round;
+}
+
+/*
+Logo
+
+The Logo block holds the site logo graphic. It can be split into two if required for a mobile and desk version of the graphic.
+
+Markup:
+<div class="l-logo">
+	<a href="/" title="Home" rel="home" class="logo">
+	  <img src="../images/logo.png" alt="Home">
+	</a>
+</div>
+
+Styleguide 1.3
+*/
+
+.l-logo {
+	margin-bottom: $vert-spacing-unit;
+}
+
+/*
+
+Utility
+
+The Utility block holds so-called 'utility' areas - the skip to link, site map, and search. Individual styles are held in separate partials.
+
+Markup:
+
+<div class="l-utility">
+	<div class="links">
+		<ul class="menu">
+			<li><a href="#main-content">Skip to content</a></li>
+			<li><a href="site-map">Site map</a></li>
+		</ul>
+	</div>
+	<div class="search">
+		<div class="l-region l-region--search">
+			<div id="block-search-form" role="search" class="block block--search block--search-form">
+				<p>Search block goes here.</p>
+			</div>
+		</div>
+	</div><
+</div>
+
+Styleguide 1.4
+*/
+
+.l-utility {
+	margin-bottom: $vert-spacing-unit;
+}
+
+/*
+
+Top menu wrapper
+
+The top menu wrapper simply allows the background of the top menu to bleed across the screen.
+
+Markup:
+<div class="l-top-menu-wrapper">
+  <div class="l-top-menu">
+    <p>Text to demonstrate .l-top-menu-wrapper.</p>
+  </div>
+</div>
+
+Styleguide 1.5
+*/
+
+.l-top-menu-wrapper {
+	@include background-image(linear-gradient(to bottom right, $yellow, $dark-yellow));
+}
+
+@include susy-breakpoint($bp-tablet, $tab-cols) {
+	.l-branding-wrapper,
+	.l-top-menu-wrapper {
+		@include bleed-x(100%);
+	}
+}

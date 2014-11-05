@@ -1,0 +1,46 @@
+/* 
+Navigation
+
+This section provides styles for the various navigation elements, primarily the top menu and
+the footer menu.
+
+Styleguide 2
+*/
+
+/*
+Top menu
+
+Provides the main navigation menu at the top of the site.
+
+Markup:
+<div class="l-top-menu">
+	<div class="l-region l-region--top-menu">
+		<nav id="block-system-main-menu" role="navigation" class="block block--system main-menu-block block--menu block--system-main-menu">
+     	<ul class="menu"><li class="first leaf"><a href="/" class="active">Item</a></li>
+				<li class="leaf"><a href="/">Item</a></li>
+				<li class="last leaf"><a href="/">Item</a></li>
+			</ul>
+		</nav>
+ </div>
+</div>
+
+.active		- Used when the current page matches the menu item.
+
+Styleguide 2.1
+*/
+
+.l-top-menu {
+	padding: $all-round;
+	.menu {
+		@include clearfix;
+		li {
+			@include float-left;
+			list-style: none;
+			text-align: center;
+			padding: 0 0.2em;
+		}
+	}
+}
+.l-footer-menu {
+
+}

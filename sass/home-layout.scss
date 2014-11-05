@@ -1,0 +1,27 @@
+// SASS File for home layout as displayed in the Panels UI.
+@import "compass";
+@import "susy";
+
+.l-home-wrapper {
+	@include container(12);
+	> div {
+		margin-bottom: 1em;
+	}
+}
+.top-left,
+.bottom-left,
+.bottom-center,
+.bottom-right {
+	@include span (4 of 12);
+}
+.top-right {
+	@include span (last 8 of 12);
+}
+.top-left,
+.bottom-left {
+	@include first;
+}
+.top-right,
+.bottom-right {
+	@include last;
+}

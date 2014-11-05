@@ -1,0 +1,15 @@
+// Core styles for Australian Apprenticeships
+
+@include global-reset;
+
+@include global-box-sizing(border-box);
+
+@include susy-breakpoint($bp-tablet, $tab-cols) {
+	.l-page {
+		@include container;
+	}
+}
+
+.hidden {
+	display: none;
+}

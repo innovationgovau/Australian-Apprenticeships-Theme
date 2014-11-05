@@ -1,0 +1,41 @@
+/* Mixins and other abstractions */
+
+@mixin hide-element {
+  display: none;
+  visibility: hidden;
+}
+
+@mixin show-element {
+	display: block;
+	visibility: visible;
+}
+
+
+// These two mixins will style table columns to percentages given
+// when called.
+
+@mixin th-width($col, $width) {
+    #{$col} {  
+        width: $width;  
+    }
+}
+
+@mixin table-columns($widths...) {
+    table-layout: fixed;
+    width: 100%;
+    th, td, td > p {}
+    $n: 1;
+    $var: "th:nth-child(" + $n + ")";
+    @each $width in $widths {
+        @include th-width($var, $width);
+        $n: $n + 1;
+        $var: "th:nth-child(" + $n + ")";
+    }
+}
+
+@mixin reset-container {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+}

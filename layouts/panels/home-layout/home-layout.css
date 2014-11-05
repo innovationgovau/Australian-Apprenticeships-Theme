@@ -1,0 +1,39 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/australian_apprenticeships\.20141029_050934\/australian-apprenticeships\/sites\/all\/themes\/australian_apprenticeships\/sass\/home-layout\.scss}line{font-family:\000035}}
+.l-home-wrapper {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/2\.0\.0\/gems\/susy-2\.1\.2\/sass\/susy\/output\/support\/_clearfix\.scss}line{font-family:\0000312}}
+  .l-home-wrapper:after {
+    content: " ";
+    display: block;
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/australian_apprenticeships\.20141029_050934\/australian-apprenticeships\/sites\/all\/themes\/australian_apprenticeships\/sass\/home-layout\.scss}line{font-family:\000037}}
+  .l-home-wrapper > div {
+    margin-bottom: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/australian_apprenticeships\.20141029_050934\/australian-apprenticeships\/sites\/all\/themes\/australian_apprenticeships\/sass\/home-layout\.scss}line{font-family:\0000311}}
+.top-left,
+.bottom-left,
+.bottom-center,
+.bottom-right {
+  width: 32.20339%;
+  float: left;
+  margin-right: 1.69492%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/australian_apprenticeships\.20141029_050934\/australian-apprenticeships\/sites\/all\/themes\/australian_apprenticeships\/sass\/home-layout\.scss}line{font-family:\0000317}}
+.top-right {
+  width: 66.10169%;
+  float: right;
+  margin-right: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/australian_apprenticeships\.20141029_050934\/australian-apprenticeships\/sites\/all\/themes\/australian_apprenticeships\/sass\/home-layout\.scss}line{font-family:\0000320}}
+.top-left,
+.bottom-left {
+  margin-left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/australian_apprenticeships\.20141029_050934\/australian-apprenticeships\/sites\/all\/themes\/australian_apprenticeships\/sass\/home-layout\.scss}line{font-family:\0000324}}
+.top-right,
+.bottom-right {
+  float: right;
+  margin-right: 0; }

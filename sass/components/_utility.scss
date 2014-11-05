@@ -1,0 +1,20 @@
+/* 
+Utility
+
+This section provides styles for blocks within the 'utility' block in the header.
+
+It splits into two columns in the mobile view, and then shifts to side-by-side columns 
+in the tablet and desk views.
+
+Styleguide 1.2.2.1
+*/
+
+.l-utility {
+	@include clearfix;
+	.links {
+		@include span (last 2 of 4);
+	}
+	.search {
+		@include span (first 2 of 4);
+	}
+}
