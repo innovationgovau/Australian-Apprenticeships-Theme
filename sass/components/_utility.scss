@@ -11,10 +11,128 @@ Styleguide 1.2.2.1
 
 .l-utility {
 	@include clearfix;
+
+/*
+Links
+
+This is a small block that provides two 'utility' links for users: 'Skip to content' and 'Site map'.
+
+Markup:
+<div class="links">
+    <ul class="menu">
+		<li><a href="#main-content">Skip to content</a></li>
+		<li><a href="site-map">Site map</a></li>
+   	</ul>
+</div>
+
+Styleguide 1.2.2.1.1
+
+*/
 	.links {
 		@include span (last 2 of 4);
+		li {
+			@include adjust-font-size-to($base-font-size);
+			@include rhythm(0,0,0,0.5);
+		}
+		a {
+			color: $white;
+			text-decoration: none; 
+			&:hover {
+				color: $light-grey;
+				text-decoration: underline;
+			}
+		}
 	}
+
+/* 
+Search
+
+This block provides search functionality. It consists of a text input and a search button.
+
+Markup:
+<div class="search">
+	<div class="l-region l-region--search">
+		<div id="block-search-form" role="search" class="block block--search block--search-form">
+			<div class="block__content">
+				<form class="search-block-form" action="/?ckcachecontrol=1415310126" method="post" id="search-block-form" accept-charset="UTF-8">
+					<div>
+						<div class="container-inline">
+							<h2 class="element-invisible">Search form</h2>
+							<div class="form-item form-type-textfield form-item-search-block-form">
+								<label class="element-invisible" for="edit-search-block-form--2">Search </label>
+								<input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text">
+							</div>
+							<div class="form-actions form-wrapper" id="edit-actions">
+								<input type="submit" id="edit-submit" name="op" value="Search" class="form-submit">
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+Styleguide 1.2.2.1.2
+
+*/
 	.search {
-		@include span (first 2 of 4);
+		@include span (2 of 4);
+		color: $dark-grey;
+		margin-top: 0.8em;
+		input {
+			border: $border;
+			height: image-height("search-icon.png") + 6px;
+		}
+		.form-item {
+			@include float-left;
+			margin-bottom: 0;
+			.form-text {
+				@include border-left-radius;
+				padding: 3px 5px;
+				width: 100%;
+			}
+		}
+		.form-actions {
+			.form-submit {
+				@include border-right-radius;
+				@include background(image-url("search-icon.png"), $white);
+				background-repeat: no-repeat;
+				background-position: 50% 50%;
+				width: image-width("search-icon.png") + 6px;
+				border-left: none;
+				text-indent: -999px;
+				&:hover {
+					background-color: $lightest-grey;
+				}
+			}
+		}
+	}
+}
+
+@include susy-breakpoint($bp-tablet, $tab-cols) {
+	.l-utility {
+		.links,
+		.search {
+			@include span (full);
+			margin-top: 0;
+			.form-item {
+				width: 85%;
+				.form-text {
+					width: 100%;
+				}
+			}
+		}
+		.links {
+			ul {
+				margin-top: $vert-spacing-unit;
+			}
+			li:first-child {
+				@include float-left;
+				padding-right: $horz-spacing-unit;
+				margin-right: $horz-spacing-unit;
+				border-right: $border;
+			}
+		}
 	}
 }

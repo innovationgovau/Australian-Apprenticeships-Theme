@@ -28,6 +28,11 @@
             <ul class="kss-menu-child">
               <li class="kss-menu-item"><a href="#section-1.1"><span class="kss-ref">1.1</span><span class="kss-name">Header Wrapper</span></a></li>
               <li class="kss-menu-item"><a href="#section-1.2"><span class="kss-ref">1.2</span><span class="kss-name">Branding</span></a></li>
+              <li class="kss-menu-item"><a href="#section-1.2.1"><span class="kss-ref">1.2.1</span><span class="kss-name">Logo</span></a></li>
+              <li class="kss-menu-item"><a href="#section-1.2.2"><span class="kss-ref">1.2.2</span><span class="kss-name">Utility</span></a></li>
+              <li class="kss-menu-item"><a href="#section-1.2.2.1"><span class="kss-ref">1.2.2.1</span><span class="kss-name">Utility</span></a></li>
+              <li class="kss-menu-item"><a href="#section-1.2.2.1.1"><span class="kss-ref">1.2.2.1.1</span><span class="kss-name">Links</span></a></li>
+              <li class="kss-menu-item"><a href="#section-1.2.3"><span class="kss-ref">1.2.3</span><span class="kss-name">Top menu wrapper</span></a></li>
             </ul>
           </nav>
         </div>
@@ -37,7 +42,7 @@
           <section id="section-1" class="kss-section kss-depth-1">
             <h1 class="kss-title"><span class="kss-ref">1</span> Header</h1>
             <div class="kss-description">
-              <p>This section provides styles for the header component at the top of the page.</p>
+              <p>This section provides styles for the header component at the top of the page. Note that individual components can appear in other partials.</p>
 
             </div>
           </section>
@@ -71,28 +76,153 @@
             <div class="kss-modifier-block">
               <div class="kss-modifier kss-modifier-original">
                 <div class="kss-modifier-example">
-                  <div class="l-branding">
-    <div class="l-logo">
+                  <div class="l-header-wrapper">
+	<header class="l-header" role="banner">
+		<div class="l-branding">
+	    <div class="l-logo">
         <a href="/" title="Home" rel="home" class="logo">
-            <img src="../images/logo.png" alt="Home">
-		</a>
-    </div>
-    <div class="l-title">
-		<h1 class="hidden">Australian Apprenticeships</h1>
-    </div>
+          <img src="../images/logo.png" alt="Home">
+				</a>
+	    </div>
+	    <div class="l-title">
+				<h1 class="hidden">Australian Apprenticeships</h1>
+	    </div>
+		</div>
+	</header>
 </div>
                 </div>
               </div>
               <div class="kss-markup">
-                <pre><code data-language="html">&lt;div class=&quot;l-branding&quot;&gt;
-    &lt;div class=&quot;l-logo&quot;&gt;
+                <pre><code data-language="html">&lt;div class=&quot;l-header-wrapper&quot;&gt;
+	&lt;header class=&quot;l-header&quot; role=&quot;banner&quot;&gt;
+		&lt;div class=&quot;l-branding&quot;&gt;
+	    &lt;div class=&quot;l-logo&quot;&gt;
         &lt;a href=&quot;/&quot; title=&quot;Home&quot; rel=&quot;home&quot; class=&quot;logo&quot;&gt;
-            &lt;img src=&quot;../images/logo.png&quot; alt=&quot;Home&quot;&gt;
-		&lt;/a&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;l-title&quot;&gt;
-		&lt;h1 class=&quot;hidden&quot;&gt;Australian Apprenticeships&lt;/h1&gt;
-    &lt;/div&gt;
+          &lt;img src=&quot;../images/logo.png&quot; alt=&quot;Home&quot;&gt;
+				&lt;/a&gt;
+	    &lt;/div&gt;
+	    &lt;div class=&quot;l-title&quot;&gt;
+				&lt;h1 class=&quot;hidden&quot;&gt;Australian Apprenticeships&lt;/h1&gt;
+	    &lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/header&gt;
+&lt;/div&gt;</code></pre>
+              </div>
+            </div>
+          </section>
+          <section id="section-1.2.1" class="kss-section kss-depth-3">
+            <h1 class="kss-title"><span class="kss-ref">1.2.1</span> Logo</h1>
+            <div class="kss-description">
+              <p>The Logo block holds the site logo graphic. It can be split into two if required for a mobile and desk version of the graphic.</p>
+
+            </div>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+                  <div class="l-logo">
+	<a href="/" title="Home" rel="home" class="logo">
+	  <img src="../images/logo.png" alt="Home">
+	</a>
+</div>
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code data-language="html">&lt;div class=&quot;l-logo&quot;&gt;
+	&lt;a href=&quot;/&quot; title=&quot;Home&quot; rel=&quot;home&quot; class=&quot;logo&quot;&gt;
+	  &lt;img src=&quot;../images/logo.png&quot; alt=&quot;Home&quot;&gt;
+	&lt;/a&gt;
+&lt;/div&gt;</code></pre>
+              </div>
+            </div>
+          </section>
+          <section id="section-1.2.2" class="kss-section kss-depth-3">
+            <h1 class="kss-title"><span class="kss-ref">1.2.2</span> Utility</h1>
+            <div class="kss-description">
+              <p>The Utility block holds so-called &#39;utility&#39; areas - the skip to link, site map, and search. Individual styles are held in separate partials.</p>
+<div class="l-utility">
+    <div class="links">
+        <ul class="menu">
+            <li><a href="#main-content">Skip to content</a></li>
+            <li><a href="site-map">Site map</a></li>
+        </ul>
+    </div>
+    <div class="search">
+        <div class="l-region l-region--search">
+            <div id="block-search-form" role="search" class="block block--search block--search-form">
+                <p>Search block goes here.</p>
+            </div>
+        </div>
+    </div>&lt;
+</div>
+            </div>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+                  Markup:
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code data-language="html">Markup:</code></pre>
+              </div>
+            </div>
+          </section>
+          <section id="section-1.2.2.1" class="kss-section kss-depth-4">
+            <h1 class="kss-title"><span class="kss-ref">1.2.2.1</span> Utility</h1>
+            <div class="kss-description">
+              <p>This section provides styles for blocks within the &#39;utility&#39; block in the header.</p>
+<p>It splits into two columns in the mobile view, and then shifts to side-by-side columns
+in the tablet and desk views.</p>
+
+            </div>
+          </section>
+          <section id="section-1.2.2.1.1" class="kss-section kss-depth-5">
+            <h1 class="kss-title"><span class="kss-ref">1.2.2.1.1</span> Links</h1>
+            <div class="kss-description">
+              <p>This is a small block that provides two &#39;utility&#39; links for users: &#39;Skip to content&#39; and &#39;Site map&#39;.</p>
+
+            </div>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+                  <div class="links">
+    <ul class="menu">
+		<li><a href="#main-content">Skip to content</a></li>
+		<li><a href="site-map">Site map</a></li>
+   	</ul>
+</div>
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code data-language="html">&lt;div class=&quot;links&quot;&gt;
+    &lt;ul class=&quot;menu&quot;&gt;
+		&lt;li&gt;&lt;a href=&quot;#main-content&quot;&gt;Skip to content&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;site-map&quot;&gt;Site map&lt;/a&gt;&lt;/li&gt;
+   	&lt;/ul&gt;
+&lt;/div&gt;</code></pre>
+              </div>
+            </div>
+          </section>
+          <section id="section-1.2.3" class="kss-section kss-depth-3">
+            <h1 class="kss-title"><span class="kss-ref">1.2.3</span> Top menu wrapper</h1>
+            <div class="kss-description">
+              <p>The top menu wrapper simply allows the background of the top menu to bleed across the screen.</p>
+
+            </div>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+                  <div class="l-top-menu-wrapper">
+  <div class="l-top-menu">
+    <p>Text to demonstrate .l-top-menu-wrapper.</p>
+  </div>
+</div>
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code data-language="html">&lt;div class=&quot;l-top-menu-wrapper&quot;&gt;
+  &lt;div class=&quot;l-top-menu&quot;&gt;
+    &lt;p&gt;Text to demonstrate .l-top-menu-wrapper.&lt;/p&gt;
+  &lt;/div&gt;
 &lt;/div&gt;</code></pre>
               </div>
             </div>

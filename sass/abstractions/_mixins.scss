@@ -39,3 +39,17 @@
     margin: 0;
     padding: 0;
 }
+
+@mixin center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@mixin vertically-center ($child: ".vcentered") {
+  display: table;
+  & > #{$child} {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}

@@ -49,6 +49,7 @@ Styleguide 1.2
 */
 
 .l-branding {
+	@include container;
 	padding: $all-round;
 }
 
@@ -69,6 +70,9 @@ Styleguide 1.2.1
 
 .l-logo {
 	margin-bottom: $vert-spacing-unit;
+	img {
+		@include center-block;
+	}
 }
 
 /*
@@ -99,7 +103,8 @@ Styleguide 1.2.2
 */
 
 .l-utility {
-	margin-bottom: $vert-spacing-unit;
+	width: 400px;
+	@include center-block;
 }
 
 /*
@@ -126,5 +131,20 @@ Styleguide 1.2.3
 	.l-branding-wrapper,
 	.l-top-menu-wrapper {
 		@include bleed-x(100%);
+	}
+	.l-logo {
+		@include span(first 6 of 12);
+	}
+	.l-branding {
+		@include vertically-center(".l-utility");
+	}
+	.l-utility {
+		@include span(last 4 of 12);
+	}
+}
+
+@include susy-breakpoint($bp-desk, $desk-cols) {
+	.l-utility {
+		//@include span(last 3 of 12);
 	}
 }

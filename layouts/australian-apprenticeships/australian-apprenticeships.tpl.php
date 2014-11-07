@@ -8,14 +8,14 @@
           </a>
         </div>
         <div class="l-utility">
+          <div class="search">
+            <?php print render($page['search']); ?>
+          </div>
           <div class="links">
             <ul class="menu">
               <li><a href="#main-content">Skip to content</a></li>
               <li><a href="site-map">Site map</a></li>
-            <ul>
-          </div>
-          <div class="search">
-            <?php print render($page['search']); ?>
+            </ul>
           </div>
         </div>
         <div class="l-title">

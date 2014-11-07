@@ -46,12 +46,26 @@ p {
     @include rhythm(0, 0, 0, 1);
 }
 
+.l-main li {
+    @include adjust-font-size-to(12px);
+    @include rhythm(0,0,0,0.5);
+}
+
 strong {
     font-weight: 700;
 }
 
 em {
     font-style: italic;
+}
+
+a {
+    color: $blue;
+    text-decoration: none;
+    &:hover {
+        color: $dark-blue;
+        text-decoration: underline;
+    }
 }
 
 @include susy-breakpoint($bp-tablet, $tab-cols) {

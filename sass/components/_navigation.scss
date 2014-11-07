@@ -32,15 +32,29 @@ Styleguide 2.1
 .l-top-menu {
 	padding: $all-round;
 	.menu {
-		@include clearfix;
+		@include horizontal-list-container;
+		@include center-block;
+		width: 28em;
 		li {
-			@include float-left;
-			list-style: none;
-			text-align: center;
-			padding: 0 0.2em;
+			@include horizontal-list-item;
+			font-weight: 700;
 		}
 	}
 }
 .l-footer-menu {
 
+}
+
+@include susy-breakpoint ($bp-tablet, $tab-cols) {
+	.l-top-menu {
+		.menu {
+			width: 100%;
+			li {
+				width: 20%;
+				padding-left: 0.5em;
+				padding-right: 0.5em;
+				text-align: center;
+			}
+		}
+	}
 }
