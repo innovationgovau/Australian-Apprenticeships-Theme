@@ -47,7 +47,7 @@ Styleguide 1.2.2.1.1
 /* 
 Search
 
-This block provides search functionality. It consists of a text input and a search button.
+This block provides search functionality. It consists of a text input and a search button. Styling for the actual form elements are provided in the _forms.scss partial.
 
 Markup:
 <div class="search">
@@ -80,7 +80,7 @@ Styleguide 1.2.2.1.2
 		@include span (2 of 4);
 		color: $dark-grey;
 		margin-top: 0.8em;
-		input {
+		/* input {
 			border: $border;
 			height: image-height("search-icon.png") + 6px;
 		}
@@ -106,7 +106,7 @@ Styleguide 1.2.2.1.2
 					background-color: $lightest-grey;
 				}
 			}
-		}
+		} */
 	}
 }
 

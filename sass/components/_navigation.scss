@@ -38,6 +38,11 @@ Styleguide 2.1
 		li {
 			@include horizontal-list-item;
 			font-weight: 700;
+			a {
+			}
+			.active {
+				color: $dark-blue;
+			}
 		}
 	}
 }
@@ -50,6 +55,7 @@ Styleguide 2.1
 		.menu {
 			width: 100%;
 			li {
+				@include adjust-font-size-to(18px);
 				width: 20%;
 				padding-left: 0.5em;
 				padding-right: 0.5em;

@@ -1,0 +1,95 @@
+/*
+Forms
+
+These rules provide styles for form elements across the site. Some are consistent globally, others are specific.
+
+Styleguide 5
+
+*/
+
+/*
+Search buttons
+
+This is a global style for all 'search' buttons.
+
+Markup:
+
+<input type="submit" id="[id]" name="[name]" value="Search" class="form-submit">
+
+Styleguide 5.1
+
+*/
+
+// This variable ensures a consistent height across search forms.
+
+$search-field-size: image-height("search-icon.png") + 6px;
+
+.search-block-form {
+	@include center-block;
+	color: $dark-grey;
+	display: table;
+	width: 100%;
+	label {
+		@include hide-element;
+	}
+	> div {
+		display: table-row;
+	}
+
+
+	.form-item {
+		display: table-cell;
+		margin-bottom: 0;
+		.form-text {
+			padding: 3px 5px;
+			border: $border;
+			border-left: none;
+			width: 100%;
+			height: $search-field-size;
+		}
+		&:first-child .form-text {
+			@include border-left-radius;
+			border: $border;
+		}
+	}
+	.form-submit {
+		@include border-right-radius;
+		@include background(image-url("search-icon.png"), $white);
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		display: table-cell;
+		border: $border;
+		border-left: none;
+		height: $search-field-size;
+		text-indent: -999px;
+		width: $search-field-size;
+		&:hover {
+			background-color: $lightest-grey;
+		}
+	}
+}
+
+@include susy-breakpoint($bp-tablet, $tab-cols) {
+	.search-block-form {
+		.home-map-form-wrapper & {
+			.form-item {
+				display: block;
+				margin-bottom: $vert-spacing-unit / 2;
+				.form-text {
+					border: $border;
+					@include border-radius;
+				}
+			}
+		}
+		.form-submit {
+			.home-map-form-wrapper & {
+				@include border-radius;
+				display: block;
+				border: $border;
+				width: 35%;
+				@include center-block;
+
+			}
+		}
+	}
+}

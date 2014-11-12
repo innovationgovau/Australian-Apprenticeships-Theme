@@ -1,0 +1,111 @@
+/* 
+Home page
+
+This section provides styles for elements of the home page.
+
+Markup:
+<div class='l-home-wrapper'>
+	<div class='top-left'>
+		<p>Top left content.</p>
+	</div>
+	<div class='top-right'>
+		<p>Top right content.</p>
+	</div>
+	<div class='bottom-left'>
+		<p>Bottom left content.</p>
+	</div>
+	<div class='bottom-center'>
+		<p>Bottom center content.</p>
+	</div>
+	<div class='bottom-right'>
+		<p>Bottom right content.</p>
+	</div>
+</div>
+
+Styleguide 4
+
+*/
+
+.l-home-wrapper {
+	@include container;
+	> div {
+		@include span(full)
+	}
+}
+
+/*
+Top left
+
+TThe top left container of the home page. Contains the home page map and related search functionality.
+
+Markup:
+<div class='l-home-wrapper'>
+	<div class='top-left'>
+		<p>Panel contents goes here.</p>
+	</div>
+</div>
+
+Styleguide 4.1
+*/
+
+.top-left {
+	@include span(full);
+	border-bottom: $border;
+	padding: 0 $horz-spacing-unit $vert-spacing-unit / 2 $horz-spacing-unit;
+	#map-canvas-home {
+		@include span (full);
+	}
+	.home-map-form-wrapper {
+		@include span (full);
+		margin-bottom: $vert-spacing-unit / 2;
+	}
+}
+
+// Responsiveness
+
+@include susy-breakpoint($bp-tablet, $tab-cols) {
+	.l-home-wrapper {
+		padding: $all-round;
+		.top-left {
+			@include span (full);
+			@include container(6);
+			border: $border;
+			#map-canvas-home {
+				@include span (first 4 of 6);
+			}
+			.home-map-form-wrapper {
+				@include span (last 2 of 6);
+				margin-bottom: $vert-spacing-unit / 2;
+			}
+		}
+		.top-right {
+			@include span (full);
+		}
+		.bottom-left {
+			@include span (first $tab-cols / 3 of $tab-cols);
+		}
+		.bottom-center {
+			@include span ($tab-cols / 3 of $tab-cols);
+		}
+		.bottom-right {
+			@include span (last $tab-cols / 3 of $tab-cols);
+		}
+	}
+}
+
+@include susy-breakpoint($bp-desk, $desk-cols) {
+	.l-home-wrapper {
+		.top-left {
+			@include span(first $desk-cols / 3 of $desk-cols);
+			#map-canvas-home {
+				@include span (full);
+			}
+			.home-map-form-wrapper {
+				@include span (full);
+			}
+		}
+		.top-right {
+			@include span(last $desk-cols / 3 * 2 of $desk-cols);
+		}
+	}
+}

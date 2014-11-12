@@ -1,0 +1,92 @@
+/* 
+Maps
+
+This section provides styles for the various maps across the site. It does not include map search forms, which are dealt with in the _forms.scss partial.
+
+Styleguide 3
+*/
+
+/*
+Home page map
+
+This map appears on the home page. Note that much of the content within this area is filled in using JavaScript.
+
+Markup:
+<div class="home-map">
+	<p><a href="/find-my-aac/full-list" title="Find an Australian Apprenticeship Centre near you">Find an Australian Apprenticeships Centre</a></p>
+	<div id="map-canvas-home"></div>
+	<div id="map-feedback"></div>
+	<div id="map-overlay" class="hidden"></div>
+	<div class="home-map-form-wrapper">...[form goes here]...</div>
+	<div class="region-search">
+		<p><a href="/find-my-aac/by-region" title="Find my AAC by region">Find an AAC by region.</a></p>
+	</div>
+</div>
+
+Styleguide 3.1
+*/
+
+.home-map,
+.internal-map {
+	position: relative;
+}
+
+#map-canvas-home {
+	height: 300px;
+	width: 100%;
+	margin-bottom: $vert-spacing-unit / 2;
+	outline: $border;
+	border-right: $border;
+}
+
+#map-feedback {
+	@include adjust-font-size-to(10px);
+	background: $white;
+	border: $border;
+	left: 15px;
+	opacity: 0.7;
+	position: absolute;
+	text-align: center;
+	top: 50px;
+	width: 20%;
+}
+
+.region-search {
+	text-align: center;
+	a {
+		@include sassy-button('simple', 5px, $base-font-size, $yellow, $dark-yellow, $blue, 'inset');
+	}
+}
+
+.infoBox {
+	@include border-radius;
+	padding: $all-round;
+	h3 {
+		@include adjust-font-size-to(18px);
+		@include rhythm(0,0,0,1);
+	}
+	.field-content {
+		div {
+			@include adjust-font-size-to(16px);
+			@include rhythm(0, 0, 0, 0.5);
+		}
+	}
+	.triangle {
+		top: -10px;
+		left: 100px;
+		width: 0;
+		height: 0;
+		border-left: 10px solid transparent;
+		border-right: 10px solid transparent;
+		border-bottom: 10px solid $yellow;
+		position: absolute;
+	}
+}
+
+@include susy-breakpoint($bp-desk, $desk-cols) {
+	.home-map {
+		p {
+			@include adjust-font-size-to(12px);
+		}
+	}
+}
