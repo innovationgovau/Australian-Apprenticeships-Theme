@@ -36,7 +36,6 @@ Styleguide 3.1
 	width: 100%;
 	margin-bottom: $vert-spacing-unit / 2;
 	outline: $border;
-	border-right: $border;
 }
 
 #map-feedback {
@@ -51,10 +50,18 @@ Styleguide 3.1
 	width: 20%;
 }
 
-.region-search {
-	text-align: center;
-	a {
-		@include sassy-button('simple', 5px, $base-font-size, $yellow, $dark-yellow, $blue, 'inset');
+#map-overlay {
+	@include background(image-url("throbber.gif"), $white);
+	opacity: 0.7;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	position: absolute;
+	top: 32px;
+	left: 0;
+	width: 100%;
+	height: 300px;
+	&.hidden {
+		@include hide-element;
 	}
 }
 
@@ -82,11 +89,26 @@ Styleguide 3.1
 		position: absolute;
 	}
 }
+.region-search {
+	display: table-cell;
+}
+
+@include susy-breakpoint($bp-tablet, $tab-cols) {
+	.region-search {
+		display: block;
+	}
+}
 
 @include susy-breakpoint($bp-desk, $desk-cols) {
 	.home-map {
 		p {
 			@include adjust-font-size-to(12px);
+		}
+		.search-button {
+			@include span(first 2 of 6);
+		}
+		.region-search {
+			@include span(last 4 of 6);
 		}
 	}
 }

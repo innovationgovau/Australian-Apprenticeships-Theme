@@ -7,18 +7,6 @@ Styleguide 5
 
 */
 
-/*
-Search buttons
-
-This is a global style for all 'search' buttons.
-
-Markup:
-
-<input type="submit" id="[id]" name="[name]" value="Search" class="form-submit">
-
-Styleguide 5.1
-
-*/
 
 // This variable ensures a consistent height across search forms.
 
@@ -52,6 +40,19 @@ $search-field-size: image-height("search-icon.png") + 6px;
 			border: $border;
 		}
 	}
+
+/*
+Search buttons
+
+This is a global style for all 'search' buttons.
+
+Markup:
+
+<input type="submit" id="[id]" name="[name]" value="Search" class="form-submit">
+
+Styleguide 5.1
+
+*/
 	.form-submit {
 		@include border-right-radius;
 		@include background(image-url("search-icon.png"), $white);
@@ -68,6 +69,35 @@ $search-field-size: image-height("search-icon.png") + 6px;
 		}
 	}
 }
+
+/*
+Generic buttons
+
+This provides a generic style for buttons across the site.
+
+Individual tweaks are also provided here.
+
+Markup:
+<a class="button" href="#" title="Button Title">Text</a>
+
+Styleguide 5.2
+
+*/
+
+.button {
+	@include sassy-button('simple', 5px, $base-font-size, $yellow, $dark-yellow, $blue, 'inset');
+	@include rhythm(0,0,0,0);
+	@include adjust-font-size-to($base-font-size);
+	width: 100%;
+	height: $search-field-size;
+	padding-top: 3px;
+	text-align: center;
+	.region-search & {
+		padding: 3px 0 0 0;
+	}
+}
+
+// Responsiveness
 
 @include susy-breakpoint($bp-tablet, $tab-cols) {
 	.search-block-form {
@@ -86,8 +116,12 @@ $search-field-size: image-height("search-icon.png") + 6px;
 				@include border-radius;
 				display: block;
 				border: $border;
-				width: 35%;
+				width: 100%;
+				margin-bottom: $vert-spacing-unit / 2;
 				@include center-block;
+				.search-button {
+					display: block;
+				}
 
 			}
 		}
