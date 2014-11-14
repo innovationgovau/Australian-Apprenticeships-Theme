@@ -29,7 +29,8 @@ Styleguide 4
 .l-home-wrapper {
 	@include container;
 	> div {
-		@include span(full)
+		@include span(full);
+		border-bottom: $border;
 	}
 }
 
@@ -50,7 +51,6 @@ Styleguide 4.1
 
 .top-left {
 	@include span(full);
-	border-bottom: $border;
 	padding: 0 $horz-spacing-unit $vert-spacing-unit / 2 $horz-spacing-unit;
 	#map-canvas-home {
 		@include span (full);
@@ -61,15 +61,21 @@ Styleguide 4.1
 	}
 }
 
+.top-right {
+	@include hide-element;
+}
+
 // Responsiveness
 
 @include susy-breakpoint($bp-tablet, $tab-cols) {
 	.l-home-wrapper {
 		padding: $all-round;
+		> div {
+			border: $border;
+		}
 		.top-left {
 			@include span (full);
 			@include container(6);
-			border: $border;
 			#map-canvas-home {
 				@include span (first 4 of 6);
 			}
@@ -80,15 +86,16 @@ Styleguide 4.1
 		}
 		.top-right {
 			@include span (full);
+			padding: 0 $horz-spacing-unit $vert-spacing-unit / 2 $horz-spacing-unit;
 		}
 		.bottom-left {
-			@include span (first $tab-cols / 3 of $tab-cols);
+			@include span (first $tab-cols / 2 of $tab-cols);
 		}
 		.bottom-center {
-			@include span ($tab-cols / 3 of $tab-cols);
+			@include span (last $tab-cols / 2 of $tab-cols);
 		}
 		.bottom-right {
-			@include span (last $tab-cols / 3 of $tab-cols);
+			@include span (full);
 		}
 	}
 }
@@ -97,6 +104,7 @@ Styleguide 4.1
 	.l-home-wrapper {
 		.top-left {
 			@include span(first $desk-cols / 3 of $desk-cols);
+			height: 37em;
 			#map-canvas-home {
 				@include span (full);
 			}
@@ -105,7 +113,20 @@ Styleguide 4.1
 			}
 		}
 		.top-right {
+			@include show-element;
 			@include span(last $desk-cols / 3 * 2 of $desk-cols);
+			height: 37em;
+			border: $border;
+			padding: $all-round;
+		}
+		.bottom-left {
+			@include span(first $desk-cols / 3 of $desk-cols);
+		}
+		.bottom-center {
+			@include span($desk-cols / 3 of $desk-cols);
+		}
+		.bottom-right {
+			@include span(last $desk-cols / 3 of $desk-cols);
 		}
 	}
 }

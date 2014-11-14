@@ -20,7 +20,7 @@
             <h1 class="kss-doc-title"><a href="./">kss-node Styleguide</a></h1>
           </header>
           <nav class="kss-nav">
-            <ul class="kss-menu" data-kss-ref="2">
+            <ul class="kss-menu" data-kss-ref="3">
               <li class="kss-menu-item"><a href="./"><span class="kss-ref">0</span><span class="kss-name">Overview</span></a></li>
               <li class="kss-menu-item"><a href="section-1.html"><span class="kss-ref">1</span><span class="kss-name">Header</span></a></li>
               <li class="kss-menu-item"><a href="section-2.html"><span class="kss-ref">2</span><span class="kss-name">Navigation</span></a></li>
@@ -30,73 +30,51 @@
               <li class="kss-menu-item"><a href="section-6.html"><span class="kss-ref">6</span><span class="kss-name">Slideshow</span></a></li>
             </ul>
             <ul class="kss-menu-child">
-              <li class="kss-menu-item"><a href="#section-2.1"><span class="kss-ref">2.1</span><span class="kss-name">Top menu</span></a></li>
+              <li class="kss-menu-item"><a href="#section-3.1"><span class="kss-ref">3.1</span><span class="kss-name">Home page map</span></a></li>
             </ul>
           </nav>
         </div>
       </div>
       <div class="kss-content">
         <article class="kss-article">
-          <section id="section-2" class="kss-section kss-depth-1">
-            <h1 class="kss-title"><span class="kss-ref">2</span> Navigation</h1>
+          <section id="section-3" class="kss-section kss-depth-1">
+            <h1 class="kss-title"><span class="kss-ref">3</span> Maps</h1>
             <div class="kss-description">
-              <p>This section provides styles for the various navigation elements, primarily the top menu and
-the footer menu.</p>
+              <p>This section provides styles for the various maps across the site. It does not include map search forms, which are dealt with in the _forms.scss partial.</p>
 
             </div>
           </section>
-          <section id="section-2.1" class="kss-section kss-depth-2">
-            <h1 class="kss-title"><span class="kss-ref">2.1</span> Top menu</h1>
+          <section id="section-3.1" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">3.1</span> Home page map</h1>
             <div class="kss-description">
-              <p>Provides the main navigation menu at the top of the site.</p>
+              <p>This map appears on the home page. Note that much of the content within this area is filled in using JavaScript.</p>
 
             </div>
             <div class="kss-modifier-block">
               <div class="kss-modifier kss-modifier-original">
                 <div class="kss-modifier-example">
-                  <div class="l-top-menu">
-	<div class="l-region l-region--top-menu">
-		<nav id="block-system-main-menu" role="navigation" class="block block--system main-menu-block block--menu block--system-main-menu">
-     	<ul class="menu"><li class="first leaf"><a href="/" class="active">Item</a></li>
-				<li class="leaf"><a href="/">Item</a></li>
-				<li class="last leaf"><a href="/">Item</a></li>
-			</ul>
-		</nav>
- </div>
-</div>
-                </div>
-              </div>
-              <div class="kss-modifier">
-                <div class="kss-modifier-head">
-                  <div class="kss-modifier-name">.active</div>
-                  <div class="kss-modifier-description">
-                    <p>Used when the current page matches the menu item.</p>
-
-                  </div>
-                </div>
-                <div class="kss-modifier-example">
-                  <div class="l-top-menu">
-	<div class="l-region l-region--top-menu">
-		<nav id="block-system-main-menu" role="navigation" class="block block--system main-menu-block block--menu block--system-main-menu">
-     	<ul class="menu"><li class="first leaf"><a href="/" class="active">Item</a></li>
-				<li class="leaf"><a href="/">Item</a></li>
-				<li class="last leaf"><a href="/">Item</a></li>
-			</ul>
-		</nav>
- </div>
+                  <div class="home-map">
+	<p><a href="/find-my-aac/full-list" title="Find an Australian Apprenticeship Centre near you">Find an Australian Apprenticeships Centre</a></p>
+	<div id="map-canvas-home"></div>
+	<div id="map-feedback"></div>
+	<div id="map-overlay" class="hidden"></div>
+	<div class="home-map-form-wrapper">...[form goes here]...</div>
+	<div class="region-search">
+		<p><a href="/find-my-aac/by-region" title="Find my AAC by region">Find an AAC by region.</a></p>
+	</div>
 </div>
                 </div>
               </div>
               <div class="kss-markup">
-                <pre><code data-language="html">&lt;div class=&quot;l-top-menu&quot;&gt;
-	&lt;div class=&quot;l-region l-region--top-menu&quot;&gt;
-		&lt;nav id=&quot;block-system-main-menu&quot; role=&quot;navigation&quot; class=&quot;block block--system main-menu-block block--menu block--system-main-menu&quot;&gt;
-     	&lt;ul class=&quot;menu&quot;&gt;&lt;li class=&quot;first leaf&quot;&gt;&lt;a href=&quot;/&quot; class=&quot;active&quot;&gt;Item&lt;/a&gt;&lt;/li&gt;
-				&lt;li class=&quot;leaf&quot;&gt;&lt;a href=&quot;/&quot;&gt;Item&lt;/a&gt;&lt;/li&gt;
-				&lt;li class=&quot;last leaf&quot;&gt;&lt;a href=&quot;/&quot;&gt;Item&lt;/a&gt;&lt;/li&gt;
-			&lt;/ul&gt;
-		&lt;/nav&gt;
- &lt;/div&gt;
+                <pre><code data-language="html">&lt;div class=&quot;home-map&quot;&gt;
+	&lt;p&gt;&lt;a href=&quot;/find-my-aac/full-list&quot; title=&quot;Find an Australian Apprenticeship Centre near you&quot;&gt;Find an Australian Apprenticeships Centre&lt;/a&gt;&lt;/p&gt;
+	&lt;div id=&quot;map-canvas-home&quot;&gt;&lt;/div&gt;
+	&lt;div id=&quot;map-feedback&quot;&gt;&lt;/div&gt;
+	&lt;div id=&quot;map-overlay&quot; class=&quot;hidden&quot;&gt;&lt;/div&gt;
+	&lt;div class=&quot;home-map-form-wrapper&quot;&gt;...[form goes here]...&lt;/div&gt;
+	&lt;div class=&quot;region-search&quot;&gt;
+		&lt;p&gt;&lt;a href=&quot;/find-my-aac/by-region&quot; title=&quot;Find my AAC by region&quot;&gt;Find an AAC by region.&lt;/a&gt;&lt;/p&gt;
+	&lt;/div&gt;
 &lt;/div&gt;</code></pre>
               </div>
             </div>

@@ -274,28 +274,20 @@ body {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/base\/_typography\.scss}line{font-family:\0000318}}
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 700; }
+  font-weight: 700;
+  color: #24224e; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/base\/_typography\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/base\/_typography\.scss}line{font-family:\0000328}}
 h1 {
-  font-size: 2.57143em;
-  line-height: 1.11111em;
+  font-size: 2.14286em;
+  line-height: 1.33333em;
   margin-top: 0em;
   padding-top: 0.57143em;
   padding-bottom: 0.57143em;
   margin-bottom: 0.28571em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/base\/_typography\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/base\/_typography\.scss}line{font-family:\0000332}}
 h2 {
-  font-size: 2.14286em;
-  line-height: 1.33333em;
-  margin-top: 0.57143em;
-  padding-top: 0em;
-  padding-bottom: 0em;
-  margin-bottom: 0.28571em; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/base\/_typography\.scss}line{font-family:\0000335}}
-h3 {
   font-size: 1.71429em;
   line-height: 1.33333em;
   margin-top: 0.57143em;
@@ -303,16 +295,25 @@ h3 {
   padding-bottom: 0em;
   margin-bottom: 0.28571em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/base\/_typography\.scss}line{font-family:\0000339}}
-h4 {
-  font-size: 1.28571em;
-  line-height: 1.33333em;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/base\/_typography\.scss}line{font-family:\0000336}}
+h3 {
+  font-size: 1.42857em;
+  line-height: 1.2em;
   margin-top: 0.57143em;
   padding-top: 0em;
   padding-bottom: 0em;
   margin-bottom: 0.28571em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/base\/_typography\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/base\/_typography\.scss}line{font-family:\0000340}}
+h4 {
+  font-size: 1.14286em;
+  line-height: 1.5em;
+  margin-top: 0.57143em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 0.28571em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/base\/_typography\.scss}line{font-family:\0000345}}
 p {
   font-size: 1em;
   line-height: 1.71429em;
@@ -321,7 +322,7 @@ p {
   padding-bottom: 0em;
   margin-bottom: 0.57143em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/base\/_typography\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/base\/_typography\.scss}line{font-family:\0000350}}
 .l-main li {
   font-size: 0.85714em;
   line-height: 1.33333em;
@@ -330,21 +331,21 @@ p {
   padding-bottom: 0em;
   margin-bottom: 0.28571em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/base\/_typography\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/base\/_typography\.scss}line{font-family:\0000355}}
 strong {
   font-weight: 700; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/base\/_typography\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/base\/_typography\.scss}line{font-family:\0000359}}
 em {
   font-style: italic; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/base\/_typography\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/base\/_typography\.scss}line{font-family:\0000363}}
 a {
-  color: #2E2B62;
+  color: #24224e;
   text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/base\/_typography\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/base\/_typography\.scss}line{font-family:\0000366}}
   a:hover {
-    color: #24224e;
+    color: #2E2B62;
     text-decoration: underline; }
 
 /* 
@@ -564,7 +565,8 @@ Styleguide 4
     width: 100%;
     float: left;
     margin-left: 0;
-    margin-right: 0; }
+    margin-right: 0;
+    border-bottom: 1px solid #bfbfbf; }
 
 /*
 Top left
@@ -580,13 +582,12 @@ Markup:
 
 Styleguide 4.1
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home\.scss}line{font-family:\0000352}}
 .top-left {
   width: 100%;
   float: left;
   margin-left: 0;
   margin-right: 0;
-  border-bottom: 1px solid #bfbfbf;
   padding: 0 1.25em 10px 1.25em; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home\.scss}line{font-family:\0000355}}
   .top-left #map-canvas-home {
@@ -602,11 +603,19 @@ Styleguide 4.1
     margin-right: 0;
     margin-bottom: 10px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home\.scss}line{font-family:\0000364}}
+.top-right {
+  display: none;
+  visibility: hidden; }
+
 @media (min-width: 48em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home\.scss}line{font-family:\0000371}}
   .l-home-wrapper {
     padding: 20px 1.25em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home\.scss}line{font-family:\0000373}}
+    .l-home-wrapper > div {
+      border: 1px solid #bfbfbf; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home\.scss}line{font-family:\0000376}}
     .l-home-wrapper .top-left {
       width: 100%;
       float: left;
@@ -614,68 +623,190 @@ Styleguide 4.1
       margin-right: 0;
       max-width: 960px;
       margin-left: auto;
-      margin-right: auto;
-      border: 1px solid #bfbfbf; }
+      margin-right: auto; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/2\.0\.0\/gems\/susy-2\.1\.2\/sass\/susy\/output\/support\/_clearfix\.scss}line{font-family:\0000312}}
       .l-home-wrapper .top-left:after {
         content: " ";
         display: block;
         clear: both; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home\.scss}line{font-family:\0000379}}
       .l-home-wrapper .top-left #map-canvas-home {
         width: 65.51724%;
         float: left;
         margin-right: 3.44828%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home\.scss}line{font-family:\0000382}}
       .l-home-wrapper .top-left .home-map-form-wrapper {
         width: 31.03448%;
         float: right;
         margin-right: 0;
         margin-bottom: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home\.scss}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home\.scss}line{font-family:\0000387}}
     .l-home-wrapper .top-right {
       width: 100%;
       float: left;
       margin-left: 0;
-      margin-right: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home\.scss}line{font-family:\0000384}}
+      margin-right: 0;
+      padding: 0 1.25em 10px 1.25em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home\.scss}line{font-family:\0000391}}
     .l-home-wrapper .bottom-left {
-      width: 32.20339%;
+      width: 49.15254%;
       float: left;
       margin-right: 1.69492%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home\.scss}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home\.scss}line{font-family:\0000394}}
     .l-home-wrapper .bottom-center {
-      width: 32.20339%;
-      float: left;
-      margin-right: 1.69492%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home\.scss}line{font-family:\0000390}}
-    .l-home-wrapper .bottom-right {
-      width: 32.20339%;
+      width: 49.15254%;
       float: right;
+      margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home\.scss}line{font-family:\0000397}}
+    .l-home-wrapper .bottom-right {
+      width: 100%;
+      float: left;
+      margin-left: 0;
       margin-right: 0; } }
 @media (min-width: 62em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home\.scss}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home\.scss}line{font-family:\00003105}}
   .l-home-wrapper .top-left {
     width: 32.20339%;
     float: left;
-    margin-right: 1.69492%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home\.scss}line{font-family:\00003100}}
+    margin-right: 1.69492%;
+    height: 37em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home\.scss}line{font-family:\00003108}}
     .l-home-wrapper .top-left #map-canvas-home {
       width: 100%;
       float: left;
       margin-left: 0;
       margin-right: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home\.scss}line{font-family:\00003111}}
     .l-home-wrapper .top-left .home-map-form-wrapper {
       width: 100%;
       float: left;
       margin-left: 0;
       margin-right: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home\.scss}line{font-family:\00003107}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home\.scss}line{font-family:\00003115}}
   .l-home-wrapper .top-right {
+    display: block;
+    visibility: visible;
     width: 66.10169%;
     float: right;
+    margin-right: 0;
+    height: 37em;
+    border: 1px solid #bfbfbf;
+    padding: 20px 1.25em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home\.scss}line{font-family:\00003122}}
+  .l-home-wrapper .bottom-left {
+    width: 32.20339%;
+    float: left;
+    margin-right: 1.69492%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home\.scss}line{font-family:\00003125}}
+  .l-home-wrapper .bottom-center {
+    width: 32.20339%;
+    float: left;
+    margin-right: 1.69492%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home\.scss}line{font-family:\00003128}}
+  .l-home-wrapper .bottom-right {
+    width: 32.20339%;
+    float: right;
     margin-right: 0; } }
+/* 
+
+Home page boxes
+
+These styles control how the home page boxes appear (the two FAQ lists and the business app list).
+
+Styleguide 4.3
+
+*/
+/*
+
+Generic list block for FAQs
+
+These styles apply to the Apprentices and Employers FAQ lists.
+
+Markup:
+
+<div class="inner-wrapper">
+	<h2>Title</h2>
+	<div class="content">
+		<ul>
+			<li><a href="#">Item</a></li>
+			<li><a href="#">Item</a></li>
+			<li><a href="#">Item</a></li>
+			<li><a href="#">Item</a></li>
+			<li><a href="#">Item</a></li>
+		</ul>
+	</div>
+	<div class="more-link"><a href="#">View all FAQs...  </a></div>
+</div>
+  
+<div class="bottom-right"></div>
+
+Styleguide 4.3.1
+
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home_boxes\.scss}line{font-family:\0000339}}
+.faq-block {
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home_boxes\.scss}line{font-family:\0000341}}
+  .faq-block .title-wrapper {
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuMCIgeDI9IjEuMCIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZDIwMiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2NjYTgwMSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, #ffd202), color-stop(100%, #cca801));
+    background-image: -moz-linear-gradient(top, #ffd202, #cca801);
+    background-image: -webkit-linear-gradient(top, #ffd202, #cca801);
+    background-image: linear-gradient(to bottom right, #ffd202, #cca801); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home_boxes\.scss}line{font-family:\0000344}}
+  .faq-block h2 {
+    padding-left: 2.5em;
+    margin-top: 0em;
+    padding-top: 0.57143em;
+    padding-bottom: 0.57143em;
+    margin-bottom: 0em;
+    background-repeat: no-repeat;
+    background-position: 0.625em 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home_boxes\.scss}line{font-family:\0000350}}
+  .faq-block .content {
+    padding: 20px 1.25em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home_boxes\.scss}line{font-family:\0000353}}
+  .faq-block li {
+    font-size: 1.14286em;
+    line-height: 1.5em;
+    margin-top: 0.28571em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    margin-bottom: 0.28571em;
+    background-image: url('../images/faq-question-navy.png?1415945063');
+    background-repeat: no-repeat;
+    background-position: left 2px;
+    font-weight: 700;
+    padding-left: 1.875em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home_boxes\.scss}line{font-family:\0000362}}
+  .faq-block .more-link {
+    margin-top: 0em;
+    padding-top: 0.57143em;
+    padding-bottom: 0.57143em;
+    margin-bottom: 0em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home_boxes\.scss}line{font-family:\0000367}}
+#faqs-apprentices h2 {
+  background-image: url('../images/faq-question-mark.png?1415945063'); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home_boxes\.scss}line{font-family:\0000371}}
+#faqs-employers h2 {
+  background-image: url('../images/employ-icon.png?1415945092'); }
+
+@media (min-width: 48em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home_boxes\.scss}line{font-family:\0000376}}
+  .faq-block {
+    height: 27em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home_boxes\.scss}line{font-family:\0000378}}
+    .faq-block .more-link {
+      position: absolute;
+      bottom: 0.5em;
+      right: 1em; } }
+@media (min-width: 62em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_home_boxes\.scss}line{font-family:\0000387}}
+  .faq-block {
+    height: 32em; } }
 /* 
 Maps
 
@@ -734,7 +865,7 @@ Styleguide 3.1
   background-repeat: no-repeat;
   background-position: 50% 50%;
   position: absolute;
-  top: 32px;
+  top: 2.3em;
   left: 0;
   width: 100%;
   height: 300px; }
@@ -790,11 +921,14 @@ Styleguide 3.1
     font-size: 0.85714em;
     line-height: 1.33333em; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_maps\.scss}line{font-family:\00003107}}
+  .home-map #map-overlay {
+    top: 1.6em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_maps\.scss}line{font-family:\00003110}}
   .home-map .search-button {
     width: 31.03448%;
     float: left;
     margin-right: 3.44828%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_maps\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_maps\.scss}line{font-family:\00003113}}
   .home-map .region-search {
     width: 65.51724%;
     float: right;
@@ -880,6 +1014,82 @@ Styleguide 2.1
       padding-left: 0.5em;
       padding-right: 0.5em;
       text-align: center; } }
+/* 
+Slideshow
+
+This section provides styles for the slideshow on the home page. Note that the slider only appears after the desktop breakpoint. This is controlled in the _home.scss partial.
+
+Note that some of the markup is controlled by the fleslider JavaScript.
+
+Markup:
+<div id="flexslider-1" class="flexslider flexslider-processed">
+	<ul class="slides">
+		<li class="" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0.759013504686565; display: block; z-index: 1;">  
+			<a href="#">
+				<img src="" width="281" height="300" alt="" draggable="false">
+			</a>    
+			<h3>
+				<a href="#">Slide title</a>
+			</h3>    
+			<p>Slide text.</p>
+		</li>
+		<li class="" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0.759013504686565; display: block; z-index: 1;">  
+			<a href="#">
+				<img src="" width="281" height="300" alt="" draggable="false">
+			</a>    
+			<h3>
+				<a href="#">Slide title</a>
+			</h3>    
+			<p>Slide text.</p>
+		</li>
+		<li class="" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0.759013504686565; display: block; z-index: 1;">  
+			<a href="#">
+				<img src="" width="281" height="300" alt="" draggable="false">
+			</a>    
+			<h3>
+				<a href="#">Slide title</a>
+			</h3>    
+			<p>Slide text.</p>
+		</li>
+	</ul>
+	<ol class="flex-control-nav flex-control-paging">
+		<li>
+			<a class="">1</a>
+		</li>
+		<li>
+			<a class="flex-active">2</a>
+		</li>
+		<li>
+			<a class="">3</a>
+		</li>
+	</ol>
+	<ul class="flex-direction-nav">
+		<li>
+			<a class="flex-prev" href="#">Previous</a>
+		</li>
+		<li>
+			<a class="flex-next" href="#">Next</a>
+		</li>
+	</ul>
+</div>
+
+Styleguide 6
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_slideshow\.scss}line{font-family:\0000363}}
+.flexslider {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -moz-border-radius: none;
+  -webkit-border-radius: none;
+  border-radius: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jboyd\/Sites\/devdesktop\/AustralianApprenticeships-2014-11-12T16-11-02\/docroot\/sites\/all\/themes\/australian_apprenticeships\/sass\/components\/_slideshow\.scss}line{font-family:\0000367}}
+  .flexslider .slides img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto; }
+
 /* 
 Utility
 

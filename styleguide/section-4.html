@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>kss-node Styleguide</title>
+    <meta name="description" content="" />
+    <meta name="generator" content="kss-node" />
+    <link rel="stylesheet" href="public/kss.css" />
+    <link rel="stylesheet" href="public/style.css" />
+    <!--[if lt IE 9]>
+    <script src="public/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+  <body id="kss-node">
+    <div class="kss-wrapper">
+      <div class="kss-sidebar">
+        <div class="kss-sidebar-inner">
+          <header class="kss-header">
+            <h1 class="kss-doc-title"><a href="./">kss-node Styleguide</a></h1>
+          </header>
+          <nav class="kss-nav">
+            <ul class="kss-menu" data-kss-ref="4">
+              <li class="kss-menu-item"><a href="./"><span class="kss-ref">0</span><span class="kss-name">Overview</span></a></li>
+              <li class="kss-menu-item"><a href="section-1.html"><span class="kss-ref">1</span><span class="kss-name">Header</span></a></li>
+              <li class="kss-menu-item"><a href="section-2.html"><span class="kss-ref">2</span><span class="kss-name">Navigation</span></a></li>
+              <li class="kss-menu-item"><a href="section-3.html"><span class="kss-ref">3</span><span class="kss-name">Maps</span></a></li>
+              <li class="kss-menu-item"><a href="section-4.html"><span class="kss-ref">4</span><span class="kss-name">Home page</span></a></li>
+              <li class="kss-menu-item"><a href="section-5.html"><span class="kss-ref">5</span><span class="kss-name">Forms</span></a></li>
+              <li class="kss-menu-item"><a href="section-6.html"><span class="kss-ref">6</span><span class="kss-name">Slideshow</span></a></li>
+            </ul>
+            <ul class="kss-menu-child">
+              <li class="kss-menu-item"><a href="#section-4.1"><span class="kss-ref">4.1</span><span class="kss-name">Top left</span></a></li>
+              <li class="kss-menu-item"><a href="#section-4.3"><span class="kss-ref">4.3</span><span class="kss-name">Home page boxes</span></a></li>
+              <li class="kss-menu-item"><a href="#section-4.3.1"><span class="kss-ref">4.3.1</span><span class="kss-name">Generic list block for FAQs</span></a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="kss-content">
+        <article class="kss-article">
+          <section id="section-4" class="kss-section kss-depth-1">
+            <h1 class="kss-title"><span class="kss-ref">4</span> Home page</h1>
+            <div class="kss-description">
+              <p>This section provides styles for elements of the home page.</p>
+
+            </div>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+                  <div class='l-home-wrapper'>
+	<div class='top-left'>
+		<p>Top left content.</p>
+	</div>
+	<div class='top-right'>
+		<p>Top right content.</p>
+	</div>
+	<div class='bottom-left'>
+		<p>Bottom left content.</p>
+	</div>
+	<div class='bottom-center'>
+		<p>Bottom center content.</p>
+	</div>
+	<div class='bottom-right'>
+		<p>Bottom right content.</p>
+	</div>
+</div>
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code data-language="html">&lt;div class=&#x27;l-home-wrapper&#x27;&gt;
+	&lt;div class=&#x27;top-left&#x27;&gt;
+		&lt;p&gt;Top left content.&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class=&#x27;top-right&#x27;&gt;
+		&lt;p&gt;Top right content.&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class=&#x27;bottom-left&#x27;&gt;
+		&lt;p&gt;Bottom left content.&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class=&#x27;bottom-center&#x27;&gt;
+		&lt;p&gt;Bottom center content.&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class=&#x27;bottom-right&#x27;&gt;
+		&lt;p&gt;Bottom right content.&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+              </div>
+            </div>
+          </section>
+          <section id="section-4.1" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">4.1</span> Top left</h1>
+            <div class="kss-description">
+              <p>TThe top left container of the home page. Contains the home page map and related search functionality.</p>
+
+            </div>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+                  <div class='l-home-wrapper'>
+	<div class='top-left'>
+		<p>Panel contents goes here.</p>
+	</div>
+</div>
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code data-language="html">&lt;div class=&#x27;l-home-wrapper&#x27;&gt;
+	&lt;div class=&#x27;top-left&#x27;&gt;
+		&lt;p&gt;Panel contents goes here.&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+              </div>
+            </div>
+          </section>
+          <section id="section-4.3" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">4.3</span> Home page boxes</h1>
+            <div class="kss-description">
+              <p>These styles control how the home page boxes appear (the two FAQ lists and the business app list).</p>
+
+            </div>
+          </section>
+          <section id="section-4.3.1" class="kss-section kss-depth-3">
+            <h1 class="kss-title"><span class="kss-ref">4.3.1</span> Generic list block for FAQs</h1>
+            <div class="kss-description">
+              <p>These styles apply to the Apprentices and Employers FAQ lists.</p>
+<div class="inner-wrapper">
+    <h2>Title</h2>
+    <div class="content">
+        <ul>
+            <li><a href="#">Item</a></li>
+            <li><a href="#">Item</a></li>
+            <li><a href="#">Item</a></li>
+            <li><a href="#">Item</a></li>
+            <li><a href="#">Item</a></li>
+        </ul>
+    </div>
+    <div class="more-link"><a href="#">View all FAQs...  </a></div>
+</div>
+
+<div class="bottom-right"></div>
+            </div>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+                  Markup:
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code data-language="html">Markup:</code></pre>
+              </div>
+            </div>
+          </section>
+        </article>
+        <footer class="kss-footer">
+          <div>Created using <a href="https://github.com/hughsk/kss-node">kss-node</a> and <a href="https://github.com/htanjo/kss-node-template">kss-node-template</a>.</div>
+        </footer>
+      </div>
+    </div>
+    <script src="public/kss.js"></script>
+    <script src="public/jquery-1.9.1.min.js"></script>
+    <!--[if gt IE 8]><!-->
+    <script src="public/rainbow.min.js"></script>
+    <!--<![endif]-->
+    <script src="public/main.js"></script>
+  </body>
+</html>

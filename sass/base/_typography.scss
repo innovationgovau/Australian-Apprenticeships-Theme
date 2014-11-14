@@ -17,6 +17,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
+    color: $dark-blue;
 }
 
 // The Rhythm mixin takes 5 variables: leader (top margin),
@@ -25,19 +26,19 @@ h1, h2, h3, h4, h5, h6 {
 // the base line height given in the VR settings.
 
 h1 {
-    @include adjust-font-size-to(36px);
+    @include adjust-font-size-to(30px);
     @include rhythm(0, 1, 1, 0.5);
 }
 h2 {
-    @include adjust-font-size-to(30px);
-    @include rhythm(1, 0, 0, 0.5);
-}
-h3 {
     @include adjust-font-size-to(24px);
     @include rhythm(1, 0, 0, 0.5);
 }
+h3 {
+    @include adjust-font-size-to(20px);
+    @include rhythm(1, 0, 0, 0.5);
+}
 h4 {
-    @include adjust-font-size-to(18px);
+    @include adjust-font-size-to(16px);
     @include rhythm(1, 0, 0, 0.5);
 }
 
@@ -60,10 +61,10 @@ em {
 }
 
 a {
-    color: $blue;
+    color: $dark-blue;
     text-decoration: none;
     &:hover {
-        color: $dark-blue;
+        color: $blue;
         text-decoration: underline;
     }
 }

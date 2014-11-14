@@ -1,0 +1,76 @@
+/* 
+Slideshow
+
+This section provides styles for the slideshow on the home page. Note that the slider only appears after the desktop breakpoint. This is controlled in the _home.scss partial.
+
+Note that some of the markup is controlled by the fleslider JavaScript.
+
+Markup:
+<div id="flexslider-1" class="flexslider flexslider-processed">
+	<ul class="slides">
+		<li class="" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0.759013504686565; display: block; z-index: 1;">  
+			<a href="#">
+				<img src="" width="281" height="300" alt="" draggable="false">
+			</a>    
+			<h3>
+				<a href="#">Slide title</a>
+			</h3>    
+			<p>Slide text.</p>
+		</li>
+		<li class="" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0.759013504686565; display: block; z-index: 1;">  
+			<a href="#">
+				<img src="" width="281" height="300" alt="" draggable="false">
+			</a>    
+			<h3>
+				<a href="#">Slide title</a>
+			</h3>    
+			<p>Slide text.</p>
+		</li>
+		<li class="" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0.759013504686565; display: block; z-index: 1;">  
+			<a href="#">
+				<img src="" width="281" height="300" alt="" draggable="false">
+			</a>    
+			<h3>
+				<a href="#">Slide title</a>
+			</h3>    
+			<p>Slide text.</p>
+		</li>
+	</ul>
+	<ol class="flex-control-nav flex-control-paging">
+		<li>
+			<a class="">1</a>
+		</li>
+		<li>
+			<a class="flex-active">2</a>
+		</li>
+		<li>
+			<a class="">3</a>
+		</li>
+	</ol>
+	<ul class="flex-direction-nav">
+		<li>
+			<a class="flex-prev" href="#">Previous</a>
+		</li>
+		<li>
+			<a class="flex-next" href="#">Next</a>
+		</li>
+	</ul>
+</div>
+
+Styleguide 6
+*/
+
+.flexslider {
+	@include box-shadow(none);
+	@include border-radius(none);
+	.slides {
+		img {
+			@include center-block;
+			width: auto;
+
+		}
+	}
+}
+
+.flex-control-nav {
+}

@@ -56,7 +56,7 @@ Styleguide 3.1
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	position: absolute;
-	top: 32px;
+	top: 2.3em;
 	left: 0;
 	width: 100%;
 	height: 300px;
@@ -103,6 +103,9 @@ Styleguide 3.1
 	.home-map {
 		p {
 			@include adjust-font-size-to(12px);
+		}
+		#map-overlay {
+			top: 1.6em;
 		}
 		.search-button {
 			@include span(first 2 of 6);
