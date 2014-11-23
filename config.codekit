@@ -70,6 +70,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/images\/businessgovau-app.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2931,
+		"inputAbbreviatedPath": "\/images\/businessgovau-app.png",
+		"outputAbbreviatedPath": "\/images\/businessgovau-app.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/employ-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -110,6 +121,39 @@
 		"initialSize": 11735,
 		"inputAbbreviatedPath": "\/images\/logo.png",
 		"outputAbbreviatedPath": "\/images\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/marketmybiz.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2396,
+		"inputAbbreviatedPath": "\/images\/marketmybiz.png",
+		"outputAbbreviatedPath": "\/images\/marketmybiz.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/mybizplan.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2499,
+		"inputAbbreviatedPath": "\/images\/mybizplan.png",
+		"outputAbbreviatedPath": "\/images\/mybizplan.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/mybizshield.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2486,
+		"inputAbbreviatedPath": "\/images\/mybizshield.png",
+		"outputAbbreviatedPath": "\/images\/mybizshield.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

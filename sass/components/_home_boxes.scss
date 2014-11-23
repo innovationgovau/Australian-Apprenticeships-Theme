@@ -12,7 +12,7 @@ Styleguide 4.3
 
 Generic list block for FAQs
 
-These styles apply to the Apprentices and Employers FAQ lists.
+These styles apply to the Apprentices and Employers FAQ lists. To some extent they also apply to the Start Your Business box.
 
 Markup:
 
@@ -43,12 +43,15 @@ Styleguide 4.3.1
 	}
 	h2 {
 		padding-left: $horz-spacing-unit * 2;
-		@include rhythm(0,1,1,0);
+		@include rhythm(0,1.5,1.5,0);
 		background-repeat: no-repeat;
 		background-position: $horz-spacing-unit / 2 50%;
 	}
 	.content {
 		padding: $all-round;
+	}
+	p {
+		@include adjust-font-size-to(16px);
 	}
 	li {
 		@include adjust-font-size-to(16px);
@@ -72,19 +75,57 @@ Styleguide 4.3.1
 	@include background-image(image-url('employ-icon.png'));
 }
 
+#my-biz-apps {
+	h2 { 
+		@include background-image(image-url('start-your-business-icon.png'));
+	}
+	li {
+		@include adjust-font-size-to(14px);
+		padding-left: $horz-spacing-unit * 2.5;
+		font-weight: 400;
+		a {
+			display: block;
+			font-weight: 700;
+		}
+		&.icon {
+			background-position: 50% left;
+			background-repeat: no-repeat;
+		}
+		&.mybizshield {
+			@include background-image(image-url('mybizshield.png'));
+		}
+		&.mybizplan {
+			@include background-image(image-url('mybizplan.png'));
+		}
+		&.marketmybiz {
+			@include background-image(image-url('marketmybiz.png'));
+		}
+		&.businessgovau-app {
+			@include background-image(image-url('businessgovau-app.png'));
+		}
+	}
+}
+
 @include susy-breakpoint($bp-tablet, $tab-cols) {
 	.faq-block {
-		height: 27em;
+		min-height: 30em;
 		.more-link {
 			position: absolute;
 			bottom: 0.5em;
 			right: 1em;
+		}
+		&#my-biz-apps {
+			height: auto;
+			min-height: initial;
 		}
 	}
 }
 
 @include susy-breakpoint($bp-desk, $desk-cols) {
 	.faq-block {
-		height: 32em;
+		min-height: 36em;
+		h2 {
+			@include adjust-font-size-to(20px);
+		}
 	}
 }
