@@ -70,6 +70,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/images\/ambassadors-program-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 612,
+		"inputAbbreviatedPath": "\/images\/ambassadors-program-icon.png",
+		"outputAbbreviatedPath": "\/images\/ambassadors-program-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/businessgovau-app.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -110,6 +121,17 @@
 		"initialSize": 374,
 		"inputAbbreviatedPath": "\/images\/faq-question-navy.png",
 		"outputAbbreviatedPath": "\/images\/faq-question-navy.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/link-icon-large.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1666,
+		"inputAbbreviatedPath": "\/images\/link-icon-large.png",
+		"outputAbbreviatedPath": "\/images\/link-icon-large.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -158,6 +180,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/national-skills-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 765,
+		"inputAbbreviatedPath": "\/images\/national-skills-icon.png",
+		"outputAbbreviatedPath": "\/images\/national-skills-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/publications-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 555,
+		"inputAbbreviatedPath": "\/images\/publications-icon.png",
+		"outputAbbreviatedPath": "\/images\/publications-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/reform-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 798,
+		"inputAbbreviatedPath": "\/images\/reform-icon.png",
+		"outputAbbreviatedPath": "\/images\/reform-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/search-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -176,6 +231,17 @@
 		"initialSize": 685,
 		"inputAbbreviatedPath": "\/images\/start-your-business-icon.png",
 		"outputAbbreviatedPath": "\/images\/start-your-business-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/starting-a-business-large.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1255,
+		"inputAbbreviatedPath": "\/images\/starting-a-business-large.png",
+		"outputAbbreviatedPath": "\/images\/starting-a-business-large.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -532,6 +598,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/components\/_utility.scss",
 		"outputAbbreviatedPath": "\/css\/_utility.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/components\/utility_links.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/components\/utility_links.scss",
+		"outputAbbreviatedPath": "\/css\/utility_links.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

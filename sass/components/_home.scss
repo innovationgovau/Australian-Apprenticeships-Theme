@@ -64,6 +64,10 @@ Styleguide 4.1
 .top-right {
 	@include hide-element;
 }
+.l-secondary {
+	@include container;
+	@include span(full);
+}
 
 // Responsiveness
 

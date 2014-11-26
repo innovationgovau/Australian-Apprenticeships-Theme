@@ -46,6 +46,14 @@
       <?php print render($page['social']); ?>
     </div>
     <div class="l-links">
+      <ul>
+        <li class="icon publications"><a href="/publications">Publications</a></li>
+        <li class="icon skills-list"><a href="/national-skills-needs-list">National Skills Needs List</a></li>
+        <li class="icon useful-links"><a href="/useful-links">Useful links</a></li>
+        <li class="icon starting-a-business"><a href="/starting-a-business">Starting a business?</a></li>
+        <li class="icon ambassadors"><a href="/australian-apprenticeships-ambassadors-program">Success stories</a></li>
+        <li class="icon reform"><a href="/australian-apprenticeships-reform">Apprenticeships Reform</a></li>
+      </ul>
       <?php print render($page['links']); ?>
     </div>
   </div>

@@ -38,6 +38,10 @@ Styleguide 4.3.1
 
 .faq-block {
 	position: relative;
+	.icon {
+		background-position: left 50%;
+		background-repeat: no-repeat;
+	}
 	.title-wrapper {
 		@include background-image(linear-gradient(to bottom right, $yellow, $dark-yellow));
 	}
@@ -87,10 +91,6 @@ Styleguide 4.3.1
 			display: block;
 			font-weight: 700;
 		}
-		&.icon {
-			background-position: 50% left;
-			background-repeat: no-repeat;
-		}
 		&.mybizshield {
 			@include background-image(image-url('mybizshield.png'));
 		}
@@ -126,6 +126,9 @@ Styleguide 4.3.1
 		min-height: 36em;
 		h2 {
 			@include adjust-font-size-to(20px);
+		}
+		&#my-biz-apps {
+			min-height: 36em;
 		}
 	}
 }
