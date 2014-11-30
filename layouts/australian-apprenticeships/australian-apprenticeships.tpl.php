@@ -47,19 +47,43 @@
     </div>
     <div class="l-links">
       <ul>
-        <li class="icon publications"><a href="/publications">Publications</a></li>
-        <li class="icon skills-list"><a href="/national-skills-needs-list">National Skills Needs List</a></li>
-        <li class="icon useful-links"><a href="/useful-links">Useful links</a></li>
-        <li class="icon starting-a-business"><a href="/starting-a-business">Starting a business?</a></li>
-        <li class="icon ambassadors"><a href="/australian-apprenticeships-ambassadors-program">Success stories</a></li>
-        <li class="icon reform"><a href="/australian-apprenticeships-reform">Apprenticeships Reform</a></li>
+        <li><a class="icon publications"href="/publications">Publications</a></li>
+        <li><a class="icon skills-list" href="/national-skills-needs-list">National Skills Needs List</a></li>
+        <li><a class="icon useful-links" href="/useful-links">Useful links</a></li>
+        <li><a class="icon starting-a-business" href="/starting-a-business">Starting a business?</a></li>
+        <li><a class="icon ambassadors" href="/australian-apprenticeships-ambassadors-program">Success stories</a></li>
+        <li><a class="icon reform" href="/australian-apprenticeships-reform">Apprenticeships Reform</a></li>
       </ul>
       <?php print render($page['links']); ?>
     </div>
+    <div class="l-utility-blocks">
+    <div class="utility-block find-aac">
+      <div class="title-wrapper">
+       <h2><a href="/find-my-aac/full-list">Find an Australian Apprenticeships Centre</a></h2>
+     </div>
+    </div>
+    <div class="utility-block connect-with-us">
+      <div class="title-wrapper">
+        <h2>Connect with us</h2>
+      </div>
+      <div class="content">
+          <p class="enquiries">All enquiries <span class="telephone">13 38 73</span></p>
+      </div>
+    </div>
+  </div>
   </div>
   <div class="l-footer-wrapper">
     <footer class="l-footer" role="contentinfo">
-      <?php print render($page['footer']); ?>
+      <div class="copyright">
+        <p>Copyright &copy; <?php echo date("Y"); ?> Department of Industry</p>
+      </div>
+      <div class="footer-menu">
+        <?php print render($page['footer']); ?>
+      </div>
+      <div class="footer-logo">
+        <a href="http://industry.gov.au" title="industry.gov.au">
+          <img src="<?php print drupal_get_path('theme', $GLOBALS['theme']) . '/images/industry-black.png'; ?>" alt="industry.gov.au" />
+        </a>
     </footer>
   </div>
 </div>

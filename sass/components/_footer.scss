@@ -1,0 +1,48 @@
+/*
+
+Footer
+
+The footer sits at the bottom of the page and contains Copyright information, a generic site 
+menu and a link back to industry.gov.au
+
+Styleguide 7
+
+/* 
+
+Footer wrapper
+
+Wraps the footer to provide overall padding and container.
+
+Styleguide 7.1
+
+*/
+
+.l-footer-wrapper {
+	@include span(full);
+	padding: 0 $all-round;
+	text-align: center;
+	@include adjust-font-size-to(10px);
+	.l-footer > div {
+		margin-bottom: $vert-spacing-unit / 2;
+	}
+	.menu {
+		@include delimited-list("\00a0|");
+	}
+}
+
+//Responsiveness
+
+@include susy-breakpoint($bp-desk, $desk-cols) {
+	.copyright {
+		@include span(first $desk-cols / 3 of $desk-cols);
+		text-align: left;
+	}
+	.footer-menu {
+		@include span($desk-cols / 3 of $desk-cols);
+		text-align: center;
+	}
+	.footer-logo {
+		@include span(last $desk-cols / 3 of $desk-cols);
+		text-align: right;
+	}
+}

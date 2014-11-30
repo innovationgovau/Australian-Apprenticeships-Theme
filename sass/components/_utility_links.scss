@@ -1,0 +1,135 @@
+/*
+
+Utility
+
+This area contains some generic lionks to deeper content, as well as some contact details.
+
+Styleguide 6
+
+/* 
+
+Utility links
+
+These styles are used for the 'utility links' on every page.
+
+Styleguide 6.1
+
+*/
+
+.l-links {
+	@include clearfix;
+	li {
+		@include background-image(linear-gradient(to bottom right, $blue, $dark-blue));
+		padding: $vert-spacing-unit / 2 0 $vert-spacing-unit / 2 $horz-spacing-unit / 2;
+		margin-bottom: $vert-spacing-unit / 2;
+		a {
+			padding: $vert-spacing-unit / 2 0 $vert-spacing-unit / 1.5 $horz-spacing-unit * 2;
+			color: $yellow;
+			display: block;
+			height: image-height("/icons/ambassadors.png");
+			font-weight: 700;
+			&.publications {
+				@extend .icons-publications;
+			}
+			&.skills-list {
+				@extend .icons-skills;
+			}
+			&.useful-links {
+				@extend .icons-links;
+			}
+			&.starting-a-business {
+				@extend .icons-business-card;
+			}
+			&.ambassadors {
+				@extend .icons-ambassadors;
+			}
+			&.reform {
+				@extend .icons-reform;
+			}
+		}
+		
+	}
+}
+
+/* 
+
+Utility blocks
+
+These two blocks contain a link to Find My AAC and contact details.
+
+Styleguide 6.2
+
+*/
+
+.l-utility-blocks {
+}
+
+.utility-block {
+	@include background-image(linear-gradient(to bottom right, $yellow, $dark-yellow));
+	padding: $all-round;
+	h2 {
+		@include rhythm(0, 0, 0, 0);
+	}
+	&.find-aac {
+		text-align: center;
+		margin-bottom: $vert-spacing-unit;
+	}
+}
+
+.connect-with-us {
+	padding-bottom: $vert-spacing-unit;
+	h2 {
+		@extend .icons-connect;
+		height: image-height("icons/connect.png");
+		margin-bottom: $horz-spacing-unit / 2;
+		padding-left: $horz-spacing-unit * 1.5;
+	}
+	.enquiries {
+		@extend .icons-mobile;
+		padding-left: $horz-spacing-unit * 2.8;
+		height: image-height("/icons/mobile.png");
+	}
+}
+
+// Responsiveness
+@include susy-breakpoint($bp-tablet, $tab-cols) {
+	.l-links {
+		li {
+			@include gallery($tab-cols / 2 of $tab-cols);
+		}
+	}
+	.utility-block {
+		height: 7em;
+	}
+	.find-aac {
+		@include span(first $tab-cols / 2 of $tab-cols);
+	}
+	.connect-with-us {
+		@include span(last $tab-cols / 2 of $tab-cols);
+	}
+}
+
+@include susy-breakpoint($bp-desk, $desk-cols) {
+	.l-links {
+		@include span(first $desk-cols / 3 * 2 of $desk-cols);
+		li {
+			@include adjust-font-size-to(16px);
+			padding: $vert-spacing-unit 0 $vert-spacing-unit $horz-spacing-unit / 2;
+			a {
+				padding: $vert-spacing-unit / 6 0 $vert-spacing-unit / 1.5 $horz-spacing-unit * 2;
+			}
+		}
+	}
+	.l-utility-blocks {
+		@include span(last $desk-cols / 3 of $desk-cols);
+		.find-aac {
+			@include span(full);
+			h2 {
+				@include adjust-font-size-to(20px);
+			}
+		}
+		.connect-with-us {
+			@include span(full);
+		}
+	}
+}

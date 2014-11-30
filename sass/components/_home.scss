@@ -64,16 +64,12 @@ Styleguide 4.1
 .top-right {
 	@include hide-element;
 }
-.l-secondary {
-	@include container;
-	@include span(full);
-}
 
 // Responsiveness
 
 @include susy-breakpoint($bp-tablet, $tab-cols) {
 	.l-home-wrapper {
-		padding: $all-round;
+		padding: $vert-spacing-unit $horz-spacing-unit 0 $horz-spacing-unit;
 		> div {
 			border: $border;
 		}

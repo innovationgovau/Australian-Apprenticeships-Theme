@@ -38,18 +38,15 @@ Styleguide 4.3.1
 
 .faq-block {
 	position: relative;
-	.icon {
-		background-position: left 50%;
-		background-repeat: no-repeat;
-	}
 	.title-wrapper {
 		@include background-image(linear-gradient(to bottom right, $yellow, $dark-yellow));
+		padding: $vert-spacing-unit * 1.25 0 $vert-spacing-unit * 1.25 $horz-spacing-unit;
 	}
 	h2 {
-		padding-left: $horz-spacing-unit * 2;
-		@include rhythm(0,1.5,1.5,0);
-		background-repeat: no-repeat;
-		background-position: $horz-spacing-unit / 2 50%;
+		@include rhythm(0, 0, 0, 0);
+		height: $icon-height;
+		line-height: $icon-height;
+		padding-left: $horz-spacing-unit * 1.5;
 	}
 	.content {
 		padding: $all-round;
@@ -57,14 +54,14 @@ Styleguide 4.3.1
 	p {
 		@include adjust-font-size-to(16px);
 	}
+	ul {
+		@include pretty-bullets("icons/question.png", $icon-height, $icon-height, 30px, 30px);
+	}
 	li {
 		@include adjust-font-size-to(16px);
 		@include rhythm(0.5,0,0,0.5);
-		@include background-image(image-url('faq-question-navy.png'));
-		background-repeat: no-repeat;
-		background-position: left 2px;
 		font-weight: 700;
-		padding-left: $horz-spacing-unit * 1.5;
+		padding-left: $horz-spacing-unit * 2;
 	}
 	.more-link {
 		@include rhythm(0,1,1,0);
@@ -72,36 +69,41 @@ Styleguide 4.3.1
 }
 	
 #faqs-apprentices h2 {
-	@include background-image(image-url('faq-question-mark.png'));
+	@extend .icons-question-bg;
 }
 
 #faqs-employers h2 {
-	@include background-image(image-url('employ-icon.png'));
+	@extend .icons-employers;
 }
 
 #my-biz-apps {
 	h2 { 
-		@include background-image(image-url('start-your-business-icon.png'));
+		@extend .icons-business-card-bg;
 	}
 	li {
 		@include adjust-font-size-to(14px);
-		padding-left: $horz-spacing-unit * 2.5;
-		font-weight: 400;
+		padding-left: 0;
+		background: none;
 		a {
 			display: block;
-			font-weight: 700;
+			padding-left: $horz-spacing-unit * 2;
+			&.mybizshield {
+				@extend .icons-mybizshield;
+			}
+			&.mybizplan {
+				@extend .icons-mybizplan;
+			}
+			&.marketmybiz {
+				@extend .icons-marketmybiz;
+			}
+			&.businessgovau {
+				@extend .icons-businessgovau;
+			}
 		}
-		&.mybizshield {
-			@include background-image(image-url('mybizshield.png'));
-		}
-		&.mybizplan {
-			@include background-image(image-url('mybizplan.png'));
-		}
-		&.marketmybiz {
-			@include background-image(image-url('marketmybiz.png'));
-		}
-		&.businessgovau-app {
-			@include background-image(image-url('businessgovau-app.png'));
+		span {
+			padding-left: $horz-spacing-unit * 2;
+			font-weight: 400;
+			display: block;
 		}
 	}
 }

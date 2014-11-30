@@ -70,68 +70,365 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/images\/ambassadors-program-icon.png": {
+	"\/images\/generated\/icons-s4689cc0020.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17888,
+		"inputAbbreviatedPath": "\/images\/generated\/icons-s4689cc0020.png",
+		"outputAbbreviatedPath": "\/images\/generated\/icons-s4689cc0020.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/ambassadors.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1551,
+		"inputAbbreviatedPath": "\/images\/icons\/ambassadors.png",
+		"outputAbbreviatedPath": "\/images\/icons\/ambassadors.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/business-card-bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1857,
+		"inputAbbreviatedPath": "\/images\/icons\/business-card-bg.png",
+		"outputAbbreviatedPath": "\/images\/icons\/business-card-bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/business-card.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2074,
+		"inputAbbreviatedPath": "\/images\/icons\/business-card.png",
+		"outputAbbreviatedPath": "\/images\/icons\/business-card.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/businessgovau.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2193,
+		"inputAbbreviatedPath": "\/images\/icons\/businessgovau.png",
+		"outputAbbreviatedPath": "\/images\/icons\/businessgovau.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/connect.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 673,
+		"inputAbbreviatedPath": "\/images\/icons\/connect.png",
+		"outputAbbreviatedPath": "\/images\/icons\/connect.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/employers.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2015,
+		"inputAbbreviatedPath": "\/images\/icons\/employers.png",
+		"outputAbbreviatedPath": "\/images\/icons\/employers.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/links.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2213,
+		"inputAbbreviatedPath": "\/images\/icons\/links.png",
+		"outputAbbreviatedPath": "\/images\/icons\/links.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/marketmybiz.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2396,
+		"inputAbbreviatedPath": "\/images\/icons\/marketmybiz.png",
+		"outputAbbreviatedPath": "\/images\/icons\/marketmybiz.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/mobile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 691,
+		"inputAbbreviatedPath": "\/images\/icons\/mobile.png",
+		"outputAbbreviatedPath": "\/images\/icons\/mobile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/mybizplan.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2499,
+		"inputAbbreviatedPath": "\/images\/icons\/mybizplan.png",
+		"outputAbbreviatedPath": "\/images\/icons\/mybizplan.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/mybizshield.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2486,
+		"inputAbbreviatedPath": "\/images\/icons\/mybizshield.png",
+		"outputAbbreviatedPath": "\/images\/icons\/mybizshield.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/originals\/ambassadors-program-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 612,
-		"inputAbbreviatedPath": "\/images\/ambassadors-program-icon.png",
-		"outputAbbreviatedPath": "\/images\/ambassadors-program-icon.png",
+		"inputAbbreviatedPath": "\/images\/icons\/originals\/ambassadors-program-icon.png",
+		"outputAbbreviatedPath": "\/images\/icons\/originals\/ambassadors-program-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/businessgovau-app.png": {
+	"\/images\/icons\/originals\/businessgovau-app.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 2931,
-		"inputAbbreviatedPath": "\/images\/businessgovau-app.png",
-		"outputAbbreviatedPath": "\/images\/businessgovau-app.png",
+		"inputAbbreviatedPath": "\/images\/icons\/originals\/businessgovau-app.png",
+		"outputAbbreviatedPath": "\/images\/icons\/originals\/businessgovau-app.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/employ-icon.png": {
+	"\/images\/icons\/originals\/employ-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 906,
-		"inputAbbreviatedPath": "\/images\/employ-icon.png",
-		"outputAbbreviatedPath": "\/images\/employ-icon.png",
+		"inputAbbreviatedPath": "\/images\/icons\/originals\/employ-icon.png",
+		"outputAbbreviatedPath": "\/images\/icons\/originals\/employ-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/faq-question-mark.png": {
+	"\/images\/icons\/originals\/faq-question-mark.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 730,
-		"inputAbbreviatedPath": "\/images\/faq-question-mark.png",
-		"outputAbbreviatedPath": "\/images\/faq-question-mark.png",
+		"inputAbbreviatedPath": "\/images\/icons\/originals\/faq-question-mark.png",
+		"outputAbbreviatedPath": "\/images\/icons\/originals\/faq-question-mark.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/faq-question-navy.png": {
+	"\/images\/icons\/originals\/faq-question-navy.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 374,
-		"inputAbbreviatedPath": "\/images\/faq-question-navy.png",
-		"outputAbbreviatedPath": "\/images\/faq-question-navy.png",
+		"inputAbbreviatedPath": "\/images\/icons\/originals\/faq-question-navy.png",
+		"outputAbbreviatedPath": "\/images\/icons\/originals\/faq-question-navy.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/link-icon-large.png": {
+	"\/images\/icons\/originals\/link-icon-large.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1666,
-		"inputAbbreviatedPath": "\/images\/link-icon-large.png",
-		"outputAbbreviatedPath": "\/images\/link-icon-large.png",
+		"inputAbbreviatedPath": "\/images\/icons\/originals\/link-icon-large.png",
+		"outputAbbreviatedPath": "\/images\/icons\/originals\/link-icon-large.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/originals\/marketmybiz.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2396,
+		"inputAbbreviatedPath": "\/images\/icons\/originals\/marketmybiz.png",
+		"outputAbbreviatedPath": "\/images\/icons\/originals\/marketmybiz.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/originals\/mybizplan.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2499,
+		"inputAbbreviatedPath": "\/images\/icons\/originals\/mybizplan.png",
+		"outputAbbreviatedPath": "\/images\/icons\/originals\/mybizplan.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/originals\/mybizshield.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2486,
+		"inputAbbreviatedPath": "\/images\/icons\/originals\/mybizshield.png",
+		"outputAbbreviatedPath": "\/images\/icons\/originals\/mybizshield.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/originals\/national-skills-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 765,
+		"inputAbbreviatedPath": "\/images\/icons\/originals\/national-skills-icon.png",
+		"outputAbbreviatedPath": "\/images\/icons\/originals\/national-skills-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/originals\/publications-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 555,
+		"inputAbbreviatedPath": "\/images\/icons\/originals\/publications-icon.png",
+		"outputAbbreviatedPath": "\/images\/icons\/originals\/publications-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/originals\/reform-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 798,
+		"inputAbbreviatedPath": "\/images\/icons\/originals\/reform-icon.png",
+		"outputAbbreviatedPath": "\/images\/icons\/originals\/reform-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/originals\/search-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 353,
+		"inputAbbreviatedPath": "\/images\/icons\/originals\/search-icon.png",
+		"outputAbbreviatedPath": "\/images\/icons\/originals\/search-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/originals\/start-your-business-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 685,
+		"inputAbbreviatedPath": "\/images\/icons\/originals\/start-your-business-icon.png",
+		"outputAbbreviatedPath": "\/images\/icons\/originals\/start-your-business-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/originals\/starting-a-business-large.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1255,
+		"inputAbbreviatedPath": "\/images\/icons\/originals\/starting-a-business-large.png",
+		"outputAbbreviatedPath": "\/images\/icons\/originals\/starting-a-business-large.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/publications.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1530,
+		"inputAbbreviatedPath": "\/images\/icons\/publications.png",
+		"outputAbbreviatedPath": "\/images\/icons\/publications.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/question-bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1881,
+		"inputAbbreviatedPath": "\/images\/icons\/question-bg.png",
+		"outputAbbreviatedPath": "\/images\/icons\/question-bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/question.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1777,
+		"inputAbbreviatedPath": "\/images\/icons\/question.png",
+		"outputAbbreviatedPath": "\/images\/icons\/question.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/reform.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1723,
+		"inputAbbreviatedPath": "\/images\/icons\/reform.png",
+		"outputAbbreviatedPath": "\/images\/icons\/reform.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/skills.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1794,
+		"inputAbbreviatedPath": "\/images\/icons\/skills.png",
+		"outputAbbreviatedPath": "\/images\/icons\/skills.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/industry-black.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 990,
+		"inputAbbreviatedPath": "\/images\/industry-black.png",
+		"outputAbbreviatedPath": "\/images\/industry-black.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -147,72 +444,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/marketmybiz.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2396,
-		"inputAbbreviatedPath": "\/images\/marketmybiz.png",
-		"outputAbbreviatedPath": "\/images\/marketmybiz.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/mybizplan.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2499,
-		"inputAbbreviatedPath": "\/images\/mybizplan.png",
-		"outputAbbreviatedPath": "\/images\/mybizplan.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/mybizshield.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2486,
-		"inputAbbreviatedPath": "\/images\/mybizshield.png",
-		"outputAbbreviatedPath": "\/images\/mybizshield.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/national-skills-icon.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 765,
-		"inputAbbreviatedPath": "\/images\/national-skills-icon.png",
-		"outputAbbreviatedPath": "\/images\/national-skills-icon.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/publications-icon.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 555,
-		"inputAbbreviatedPath": "\/images\/publications-icon.png",
-		"outputAbbreviatedPath": "\/images\/publications-icon.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/reform-icon.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 798,
-		"inputAbbreviatedPath": "\/images\/reform-icon.png",
-		"outputAbbreviatedPath": "\/images\/reform-icon.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/search-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -220,28 +451,6 @@
 		"initialSize": 353,
 		"inputAbbreviatedPath": "\/images\/search-icon.png",
 		"outputAbbreviatedPath": "\/images\/search-icon.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/start-your-business-icon.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 685,
-		"inputAbbreviatedPath": "\/images\/start-your-business-icon.png",
-		"outputAbbreviatedPath": "\/images\/start-your-business-icon.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/starting-a-business-large.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1255,
-		"inputAbbreviatedPath": "\/images\/starting-a-business-large.png",
-		"outputAbbreviatedPath": "\/images\/starting-a-business-large.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -493,6 +702,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/sass\/components\/_footer.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/components\/_footer.scss",
+		"outputAbbreviatedPath": "\/css\/_footer.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/sass\/components\/_header.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -605,15 +830,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/sass\/components\/utility_links.scss": {
+	"\/sass\/components\/_utility_links.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/components\/utility_links.scss",
-		"outputAbbreviatedPath": "\/css\/utility_links.css",
+		"inputAbbreviatedPath": "\/sass\/components\/_utility_links.scss",
+		"outputAbbreviatedPath": "\/css\/_utility_links.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1071,11 +1296,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/templates\/views\/views-view.tpl.php": {
+	"\/templates\/VIEWS\/views-view.tpl.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/templates\/views\/views-view.tpl.php",
+		"inputAbbreviatedPath": "\/templates\/VIEWS\/views-view.tpl.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
