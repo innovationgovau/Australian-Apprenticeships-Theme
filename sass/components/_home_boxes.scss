@@ -125,12 +125,12 @@ Styleguide 4.3.1
 
 @include susy-breakpoint($bp-desk, $desk-cols) {
 	.faq-block {
-		min-height: 36em;
+		min-height: 38em;
 		h2 {
 			@include adjust-font-size-to(20px);
 		}
 		&#my-biz-apps {
-			min-height: 36em;
+			min-height: 38em;
 		}
 	}
 }

@@ -70,13 +70,13 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/images\/generated\/icons-s4689cc0020.png": {
+	"\/images\/generated\/icons-s99f35af83a.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 17888,
-		"inputAbbreviatedPath": "\/images\/generated\/icons-s4689cc0020.png",
-		"outputAbbreviatedPath": "\/images\/generated\/icons-s4689cc0020.png",
+		"initialSize": 21573,
+		"inputAbbreviatedPath": "\/images\/generated\/icons-s99f35af83a.png",
+		"outputAbbreviatedPath": "\/images\/generated\/icons-s99f35af83a.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -143,6 +143,17 @@
 		"initialSize": 2015,
 		"inputAbbreviatedPath": "\/images\/icons\/employers.png",
 		"outputAbbreviatedPath": "\/images\/icons\/employers.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/facebook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2141,
+		"inputAbbreviatedPath": "\/images\/icons\/facebook.png",
+		"outputAbbreviatedPath": "\/images\/icons\/facebook.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -231,6 +242,17 @@
 		"initialSize": 906,
 		"inputAbbreviatedPath": "\/images\/icons\/originals\/employ-icon.png",
 		"outputAbbreviatedPath": "\/images\/icons\/originals\/employ-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/originals\/facebook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1257,
+		"inputAbbreviatedPath": "\/images\/icons\/originals\/facebook.png",
+		"outputAbbreviatedPath": "\/images\/icons\/originals\/facebook.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -367,6 +389,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/icons\/originals\/YouTube-icon-full_color.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13530,
+		"inputAbbreviatedPath": "\/images\/icons\/originals\/YouTube-icon-full_color.png",
+		"outputAbbreviatedPath": "\/images\/icons\/originals\/YouTube-icon-full_color.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/icons\/publications.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -393,7 +426,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1777,
+		"initialSize": 336,
 		"inputAbbreviatedPath": "\/images\/icons\/question.png",
 		"outputAbbreviatedPath": "\/images\/icons\/question.png",
 		"outputPathIsOutsideProject": 0,
@@ -418,6 +451,39 @@
 		"initialSize": 1794,
 		"inputAbbreviatedPath": "\/images\/icons\/skills.png",
 		"outputAbbreviatedPath": "\/images\/icons\/skills.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/social.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1845,
+		"inputAbbreviatedPath": "\/images\/icons\/social.png",
+		"outputAbbreviatedPath": "\/images\/icons\/social.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/twitter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2222,
+		"inputAbbreviatedPath": "\/images\/icons\/twitter.png",
+		"outputAbbreviatedPath": "\/images\/icons\/twitter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/youtube.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1538,
+		"inputAbbreviatedPath": "\/images\/icons\/youtube.png",
+		"outputAbbreviatedPath": "\/images\/icons\/youtube.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -485,6 +551,26 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/layouts\/panels\/apprenticeships-left\/apprenticeships-left.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2472,
+		"inputAbbreviatedPath": "\/layouts\/panels\/apprenticeships-left\/apprenticeships-left.png",
+		"outputAbbreviatedPath": "\/layouts\/panels\/apprenticeships-left\/apprenticeships-left.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/layouts\/panels\/apprenticeships-left\/apprenticeships-left.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/layouts\/panels\/apprenticeships-left\/apprenticeships-left.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/layouts\/panels\/home-layout\/home-layout.css": {
 		"fileType": 16,
@@ -807,6 +893,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/components\/_slideshow.scss",
 		"outputAbbreviatedPath": "\/css\/_slideshow.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/components\/_social.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/components\/_social.scss",
+		"outputAbbreviatedPath": "\/css\/_social.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1251,6 +1353,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/templates\/field\/field.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/templates\/field\/field.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/templates\/panels\/panels-pane.tpl.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1296,11 +1407,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/templates\/VIEWS\/views-view.tpl.php": {
+	"\/templates\/views\/views-view--social-media--block.tpl.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/templates\/VIEWS\/views-view.tpl.php",
+		"inputAbbreviatedPath": "\/templates\/views\/views-view--social-media--block.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/templates\/views\/views-view-unformatted--social-media--block.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/templates\/views\/views-view-unformatted--social-media--block.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/templates\/views\/views-view.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/templates\/views\/views-view.tpl.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

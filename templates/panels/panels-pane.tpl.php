@@ -20,40 +20,48 @@
 <?php if ($pane_prefix): ?>
   <?php print $pane_prefix; ?>
 <?php endif; ?>
-<div class="inner-wrapper <?php print $classes; ?>" <?php print $attributes; print $id; ?>>
-  <?php if ($admin_links): ?>
-    <?php print $admin_links; ?>
+<?php if (drupal_is_front_page()): ?>
+  <div class="inner-wrapper <?php print $classes; ?>" <?php print $attributes; print $id; ?>>
+<?php endif; ?>
+<?php if ($admin_links): ?>
+  <?php print $admin_links; ?>
+<?php endif; ?>
+<?php if ($title): ?>
+  <?php if (drupal_is_front_page()): ?>
+    <div class="title-wrapper">
   <?php endif; ?>
-  <div class="title-wrapper">
     <?php print render($title_prefix); ?>
-    <?php if ($title): ?>
+    <?php if (drupal_is_front_page()): ?>
       <h2><?php print $title; ?></h2>
+    <?php elseif (!drupal_is_front_page()): ?>
+      <h1><?php print $title; ?></h1>
     <?php endif; ?>
     <?php print render($title_suffix); ?>
-  </div>
-
+    <?php if (drupal_is_front_page()): ?>
+      </div>
+    <?php endif; ?>
+  <?php endif; ?>
   <?php if ($feeds): ?>
     <div class="feed">
       <?php print $feeds; ?>
     </div>
   <?php endif; ?>
-
   <div class="content">
     <?php print render($content); ?>
   </div>
-
   <?php if ($links): ?>
     <div class="links">
       <?php print $links; ?>
     </div>
   <?php endif; ?>
-
   <?php if ($more): ?>
     <div class="more-link">
       <?php print $more; ?>
     </div>
   <?php endif; ?>
-</div>
+  <?php if (drupal_is_front_page()): ?>
+    </div>
+  <?php endif; ?>
 <?php if ($pane_suffix): ?>
   <?php print $pane_suffix; ?>
 <?php endif; ?>
