@@ -18,6 +18,9 @@ Styleguide 6.1
 
 .l-links {
 	@include clearfix;
+	ul {
+		margin-left: 0;
+	}
 	li {
 		@include background-image(linear-gradient(to bottom right, $blue, $dark-blue));
 		padding: $vert-spacing-unit / 2 0 $vert-spacing-unit / 2 $horz-spacing-unit / 2;

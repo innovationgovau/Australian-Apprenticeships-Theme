@@ -1,0 +1,85 @@
+/* Social media block */
+
+.l-social {
+	border-bottom: $border;
+	margin-bottom: $vert-spacing-unit / 2;
+	.content {
+		padding: 0;
+		> div {
+			padding: $all-round;
+		}
+	}
+	.title-wrapper {
+		position: relative;
+		h2 {
+			@extend .icons-social;
+		}
+	}
+	.read-more {
+		display: block;
+		position: absolute;
+		right: $horz-spacing-unit;
+		top: 35%;
+	}
+}
+
+.social-item  {
+	border-bottom: $border;
+	padding-bottom: $vert-spacing-unit / 2;
+	@include background-image(linear-gradient(to bottom right, $white, $lightest-grey));
+	.social-ref,
+	.social-date {
+		font-style: italic;
+		@include adjust-font-size-to(12px);
+	}
+}
+
+.social-ref  {
+	padding-left: $horz-spacing-unit * 2.5;
+	height: $icon-height;
+	display: block;
+	line-height: $icon-height;
+	.Facebook & {
+		@extend .icons-facebook;
+	}
+	.Twitter & {
+		@extend .icons-twitter;
+	}
+	.Youtube & {
+		@extend .icons-youtube;
+	}
+}
+
+@include susy-breakpoint($bp-tablet, $tab-cols) {
+	.l-social {
+		border-bottom: none;
+		.block__content {
+			border: $border;
+		}
+		.content {
+			@include clearfix;
+			@include background-image(linear-gradient(to bottom right, $white, $lightest-grey));
+		}
+	}
+	.social-item {
+		@include span($tab-cols / 3 of $tab-cols);
+		@include background-image(none);
+		border-bottom: none;
+		border-right: $border;
+		min-height: 24em;
+
+		&.views-row-last {
+			@include last;
+			border-right: none;
+		}
+	}
+}
+
+@include susy-breakpoint($bp-desk, $desk-cols) {
+	.l-social .faq-block {
+		min-height: 0;
+	}
+	.social-item {
+		min-height: 27em;
+	}
+}

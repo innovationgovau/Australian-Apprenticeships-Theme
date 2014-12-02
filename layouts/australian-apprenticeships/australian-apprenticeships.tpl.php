@@ -4,7 +4,7 @@
       <div class="l-branding">
         <div class="l-logo">
           <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="logo">
-            <img src="<?php print drupal_get_path('theme', $GLOBALS['theme']) . '/images/logo.png'; ?>" alt="<?php print t('Home'); ?>" />
+            <img src="/<?php print drupal_get_path('theme', $GLOBALS['theme']) . '/images/logo.png'; ?>" alt="<?php print t('Home'); ?>" />
           </a>
         </div>
         <div class="l-utility">
@@ -82,7 +82,7 @@
       </div>
       <div class="footer-logo">
         <a href="http://industry.gov.au" title="industry.gov.au">
-          <img src="<?php print drupal_get_path('theme', $GLOBALS['theme']) . '/images/industry-black.png'; ?>" alt="industry.gov.au" />
+          <img src="/<?php print drupal_get_path('theme', $GLOBALS['theme']) . '/images/industry-black.png'; ?>" alt="industry.gov.au" />
         </a>
     </footer>
   </div>

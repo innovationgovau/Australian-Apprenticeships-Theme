@@ -5,14 +5,21 @@
 @include global-box-sizing(border-box);
 
 .l-secondary {
-	@include container;
-	@include span(full);
+	margin-bottom: $vert-spacing-unit;
+}
+
+.content-wrapper {
 	padding: 0 $all-round;
+	
 }
 
 @include susy-breakpoint($bp-tablet, $tab-cols) {
 	.l-page {
 		@include container;
+	}
+	.l-secondary {
+		padding: 0 $all-round;
+		@include span(full);
 	}
 }
 
