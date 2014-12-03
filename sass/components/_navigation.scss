@@ -46,6 +46,80 @@ Styleguide 2.1
 		}
 	}
 }
+
+/*
+
+Left menu
+
+Provides the main page-based navigation for the site. Sits on the left hand side and is affected by the off canvas styling.
+
+Styleguide 2.2
+
+*/
+
+.off-canvas-nav {
+	.content {
+		margin-top: $vert-spacing-unit;
+	}
+	.menu-block-wrapper > .menu > li {
+		margin-bottom: $horz-spacing-unit / 4;
+	}
+	.menu {
+		li {
+			@include adjust-font-size-to(14px);
+			@include background-image(linear-gradient(to bottom right, $blue, $dark-blue));
+			list-style: none;
+			a {
+				@include rhythm(0,1,1,0);
+				color: $yellow;
+				font-weight: 700;
+				display: block;
+				padding-left: $horz-spacing-unit;
+				padding-right: $horz-spacing-unit;
+			}
+			&.active {
+				> a {
+					font-style: italic;
+				}
+			}
+			.collapsed {
+				a {
+					@include background-image(image-url('arrow.png'));
+					background-position: 90% 50%;
+					background-repeat: no-repeat;
+				}
+				.menu {
+					display: none;
+				}
+			}
+			.expanded  {
+				.menu {
+					display: block;
+				}
+			}
+			li {
+				@include background-image(linear-gradient(to bottom right, $yellow, $dark-yellow));
+				a {
+					color: $blue;
+					padding-left: $horz-spacing-unit * 1.5;
+				}
+				li {
+					@include background-image(linear-gradient(to bottom right, $white, $lightest-grey));
+					border: 1px solid $yellow;
+					border-top: none;
+					&.last {
+						border-bottom: none;
+					}
+					a {
+						color: $blue;
+						padding-left: $horz-spacing-unit * 2;
+					}
+				}
+			}
+		}
+	}
+}
+
 .l-footer-menu {
 
 }

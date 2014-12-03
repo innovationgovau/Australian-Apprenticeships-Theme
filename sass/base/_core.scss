@@ -10,14 +10,15 @@
 
 .content-wrapper {
 	padding: 0 $all-round;
-	
+	@include clearfix;
 }
 
 @include susy-breakpoint($bp-tablet, $tab-cols) {
 	.l-page {
 		@include container;
 	}
-	.l-secondary {
+	.l-secondary,
+	.user-profile {
 		padding: 0 $all-round;
 		@include span(full);
 	}

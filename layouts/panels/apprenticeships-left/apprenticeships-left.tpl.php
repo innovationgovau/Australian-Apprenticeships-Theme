@@ -10,7 +10,8 @@
  */
 ?>
 <div class="content-wrapper">
-	<div class="left-sidebar">
+	<div class="left-sidebar off-canvas-nav">
+		<a class="off-canvas-button" href="#sidebar">Menu</a>
 		<?php print $content['left-sidebar']; ?>
 	</div>
 	<div class="right-column">

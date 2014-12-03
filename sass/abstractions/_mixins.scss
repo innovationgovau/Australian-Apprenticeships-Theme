@@ -51,5 +51,12 @@
   & > #{$child} {
     display: table-cell;
     vertical-align: middle;
-  }
+    }
+}
+
+%single-transition {
+    @include single-transition(all, .3s, ease, 0s);
+}
+%no-transition {
+    @include single-transition(none, 0s, linear, 0s);
 }

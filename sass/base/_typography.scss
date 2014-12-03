@@ -47,7 +47,7 @@ p {
     @include rhythm(0, 0, 0, 1);
 }
 
-.l-main {
+.right-column {
     ul {
         margin-left: 2em;
         ul {
@@ -56,18 +56,19 @@ p {
                 margin-left: 1em;
             }
         }
-    }
-    li {
-        @include adjust-font-size-to($base-font-size);
-        @include rhythm(0,0,0,0.5);
-        list-style: outside square;
         li {
-            list-style-type: disc;
+            @include adjust-font-size-to($base-font-size);
+            @include rhythm(0,0,0,0.5);
+            list-style: outside square;
             li {
-                list-style-type: circle;
+                list-style-type: disc;
+                li {
+                    list-style-type: circle;
+                }
             }
         }
     }
+    
 }
 
 strong {

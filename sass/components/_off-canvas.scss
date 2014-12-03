@@ -1,0 +1,70 @@
+/*
+Off canvas
+
+Styles the off canvas portion of the left hand menu.
+
+Styleguide 8
+
+*/
+
+.left-sidebar.off-canvas-nav {
+  .off-canvas-button {
+    @include show-element;
+  }
+  .content {
+    @extend %single-transition;
+    @include span(full);
+
+    .js & {
+      @include span(first 3 of 4);
+      @include pull(full);
+      z-index: 2;
+    }
+
+    .active & {
+      @include span(first 3 of 4);
+      @include pull(0);
+    } 
+  }
+}
+
+.right-column {
+  @extend %single-transition;
+
+  .js & {
+    z-index: 1;
+  }
+  .active & {
+    @include span(full);
+    @include push(3 of 4);
+    @include reset-float;
+  }
+}
+
+// Responsiveness
+
+@include susy-breakpoint($bp-tablet, $tab-cols) {
+  .left-sidebar.off-canvas-nav {
+    .off-canvas-button {
+      @include hide-element;
+    }
+    .content {
+      @include single-transition(none, 0s, linear, 0s);
+      @include span(first 3 of 12);
+      .js & {
+        @include span(first 3 of 12);
+        @include pull(0);
+      }
+    }
+  }
+  .right-column {
+    @include single-transition(none, 0s, linear, 0s);
+    @include span(last 9 of 12);
+    @include push(0);
+    @include prefix(0.5 of 12);
+    .active & {
+      @include span(last 9 of 12);
+      @include push(0);
+    }
+  }
+}

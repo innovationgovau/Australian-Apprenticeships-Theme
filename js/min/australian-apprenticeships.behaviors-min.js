@@ -1,0 +1,1 @@
+!function($){Drupal.behaviors.australianApprenticeshipsOffCanvas={attach:function(){var a=function(){$("body").toggleClass("active")};$(window).resize(function(){var a=$(".off-canvas-nav").css("display");"block"===a&&$("body").removeClass("active")}),$(document).ready(function(){$(".off-canvas-button").click(function(n){n.preventDefault(),a()})})}}}(jQuery);

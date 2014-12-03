@@ -24,13 +24,13 @@
 }
 
 .social-item  {
+	@include adjust-font-size-to(12px);
 	border-bottom: $border;
 	padding-bottom: $vert-spacing-unit / 2;
 	@include background-image(linear-gradient(to bottom right, $white, $lightest-grey));
 	.social-ref,
 	.social-date {
 		font-style: italic;
-		@include adjust-font-size-to(12px);
 	}
 }
 
