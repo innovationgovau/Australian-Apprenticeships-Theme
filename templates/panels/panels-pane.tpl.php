@@ -22,6 +22,8 @@
 <?php endif; ?>
 <?php if (drupal_is_front_page()): ?>
   <div class="inner-wrapper <?php print $classes; ?>" <?php print $attributes; print $id; ?>>
+<?php elseif (!drupal_is_front_page()): ?>
+  <div <?php print $id; ?>>
 <?php endif; ?>
 <?php if ($admin_links): ?>
   <?php print $admin_links; ?>
@@ -59,9 +61,7 @@
       <?php print $more; ?>
     </div>
   <?php endif; ?>
-  <?php if (drupal_is_front_page()): ?>
-    </div>
-  <?php endif; ?>
+  </div>
 <?php if ($pane_suffix): ?>
   <?php print $pane_suffix; ?>
 <?php endif; ?>

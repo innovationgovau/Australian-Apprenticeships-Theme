@@ -14,7 +14,7 @@
           <div class="links">
             <ul class="menu">
               <li><a href="#main-content">Skip to content</a></li>
-              <li><a href="site-map">Site map</a></li>
+              <li><a href="sitemap">Site map</a></li>
             </ul>
           </div>
         </div>

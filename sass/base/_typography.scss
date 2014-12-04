@@ -42,12 +42,14 @@ h4 {
     @include rhythm(1, 0, 0, 0.5);
 }
 
-p {
+p,
+.messages {
     @include adjust-font-size-to($base-font-size);
     @include rhythm(0, 0, 0, 1);
 }
 
-.right-column {
+.right-column,
+.site-map {
     ul {
         margin-left: 2em;
         ul {

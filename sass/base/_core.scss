@@ -13,6 +13,10 @@
 	@include clearfix;
 }
 
+.site-map {
+	padding-top: $vert-spacing-unit;
+}
+
 @include susy-breakpoint($bp-tablet, $tab-cols) {
 	.l-page {
 		@include container;
