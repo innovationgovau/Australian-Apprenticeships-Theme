@@ -27,6 +27,7 @@
   <title><?php print $head_title; ?></title>
   <?php print $head; ?>
   <?php print $styles; ?>
+  <link rel="stylesheet" type="text/css" href="//cloud.typography.com/757928/689806/css/fonts.css" />
   <?php print $scripts; ?>
 </head>
 <body<?php print $attributes;?>>
@@ -50,7 +51,6 @@
       <?php endif; ?>
     </div>
 
-    <?php print $header; ?>
   </header>
 
   <div class="l-main">
