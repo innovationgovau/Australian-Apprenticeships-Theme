@@ -50,23 +50,38 @@ p,
 
 .right-column,
 .site-map {
-    ul {
+    ul,
+    ol {
         margin-left: 2em;
-        ul {
+        ul,
+        ol {
             margin-left: 1em;
-            ul {
+            ul,
+            ol {
                 margin-left: 1em;
             }
         }
         li {
             @include adjust-font-size-to($base-font-size);
             @include rhythm(0,0,0,0.5);
-            list-style: outside square;
+        }
+    }
+    ul li {
+        list-style: outside square;
+        li {
+            list-style-type: disc;
             li {
-                list-style-type: disc;
-                li {
-                    list-style-type: circle;
-                }
+                list-style-type: circle;
+            }
+        }
+
+    }
+    ol li {
+        list-style-type: decimal;
+        li {
+            list-style-type: lower-latin;
+            li {
+                list-style-type: lower-roman;
             }
         }
     }

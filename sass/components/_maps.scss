@@ -56,11 +56,18 @@ div[id^="map-canvas-"] {
 
 #map-message {
 	margin: auto;
-	height: 8em;
-	top: 0; left: 0; bottom: 0; right: 0;
+	height: 10em;
+	top: 20px; left: 0; bottom: 0; right: 0;
 	display: none;
+	width: 50%;
+	padding: 0.5em;
 	&.warning {
 		border-color: red;
+	}
+	p {
+		display: table-cell;
+		vertical-align: middle;
+		@include adjust-font-size-to(16px);
 	}
 }
 
