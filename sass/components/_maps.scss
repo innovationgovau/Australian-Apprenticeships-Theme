@@ -37,7 +37,8 @@ div[id^="map-canvas-"] {
 	margin-bottom: $vert-spacing-unit / 2;
 	outline: $border;
 }
-#map-canvas-internal {
+#map-canvas-internal,
+#map-canvas-ambassadors {
 	height: $internal-height;
 }
 
