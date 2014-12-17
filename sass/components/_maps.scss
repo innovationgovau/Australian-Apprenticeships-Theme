@@ -26,8 +26,7 @@ Markup:
 Styleguide 3.1
 */
 
-.home-map,
-.internal-map {
+div[class$="-map"] {
 	position: relative;
 }
 
@@ -79,6 +78,9 @@ div[id^="map-canvas-"] {
 	background-position: 50% 50%;
 	position: absolute;
 	top: 2.3em;
+	.ambassadors-map & {
+		top: 0;
+	}
 	left: 0;
 	width: 100%;
 	.not-front & {
