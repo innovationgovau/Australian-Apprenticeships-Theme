@@ -532,6 +532,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/select-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3266,
+		"inputAbbreviatedPath": "\/images\/select-icon.png",
+		"outputAbbreviatedPath": "\/images\/select-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/js\/australian-apprenticeships.behaviors.js": {
 		"fileType": 64,
 		"ignore": 0,

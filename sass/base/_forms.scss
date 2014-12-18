@@ -28,12 +28,21 @@ $search-field-size: image-height("search-icon.png") + 6px;
 	.form-item {
 		display: table-cell;
 		margin-bottom: 0;
-		.form-text {
+		.form-text,
+		.form-select {
 			padding: 3px 5px;
 			border: $border;
 			border-left: none;
 			width: 100%;
 			height: $search-field-size;
+		}
+		.form-select {
+			@include border-radius(0);
+			@include appearance(none);
+			line-height: initial;
+			@include background(image-url("select-icon.png"), $white);
+			background-repeat: no-repeat;
+			background-position: 95%;
 		}
 		&:first-child .form-text {
 			@include border-left-radius;
@@ -105,7 +114,8 @@ Styleguide 5.2
 			.form-item {
 				display: block;
 				margin-bottom: $vert-spacing-unit / 2;
-				.form-text {
+				.form-text,
+				.form-select {
 					border: $border;
 					@include border-radius;
 				}

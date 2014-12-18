@@ -136,11 +136,11 @@ div[id^="map-canvas-"] {
 		#map-overlay {
 			top: 1.6em;
 		}
-		.search-button {
-			@include span(first 2 of 6);
+		.form-item-region-search {
+			@include span(first 4 of 6);
 		}
-		.region-search {
-			@include span(last 4 of 6);
+		.search-button {
+			@include span(last 2 of 6);
 		}
 	}
 }
